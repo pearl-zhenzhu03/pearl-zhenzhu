@@ -1,0 +1,3048 @@
+{
+  "vocab": [
+    {
+      "word": "abandon",
+      "ipa": "/əˈbændən/",
+      "pos": "v.",
+      "root": "band = bind",
+      "affix": "a- = at; -bandon = control",
+      "syn": "desert, forsake, leave",
+      "near": "abandon vs. desert",
+      "phrase": "abandon oneself to, abandon ship",
+      "ex": "They abandoned the car in the snow.（他们把车丢弃在雪中。）"
+    },
+    {
+      "word": "abolish",
+      "ipa": "/əˈbɒlɪʃ/",
+      "pos": "v.",
+      "root": "ol = grow",
+      "affix": "ab- = away; -ol = nourish",
+      "syn": "eliminate, eradicate, end",
+      "near": "abolish vs. cancel",
+      "phrase": "abolish slavery, abolish a law",
+      "ex": "The country abolished the death penalty in 2011.（该国于2011年废除了死刑。）"
+    },
+    {
+      "word": "abstain",
+      "ipa": "/əbˈsteɪn/",
+      "pos": "v.",
+      "root": "tain = hold",
+      "affix": "abs- = away; -tain = hold",
+      "syn": "refrain, desist, avoid",
+      "near": "abstain vs. refrain",
+      "phrase": "abstain from, abstain from voting",
+      "ex": "Several countries abstained from the vote.（几个国家投了弃权票。）"
+    },
+    {
+      "word": "abundant",
+      "ipa": "/əˈbʌndənt/",
+      "pos": "adj.",
+      "root": "und = wave",
+      "affix": "ab- = away; -und = wave",
+      "syn": "plentiful, ample, copious",
+      "near": "abundant vs. plentiful",
+      "phrase": "abundant in, abundant evidence",
+      "ex": "The region is abundant in natural resources.（该地区自然资源丰富。）"
+    },
+    {
+      "word": "academic",
+      "ipa": "/ˌækəˈdemɪk/",
+      "pos": "adj.",
+      "root": "acad = academy",
+      "affix": "-",
+      "syn": "scholarly, educational, intellectual",
+      "near": "academic vs. theoretical",
+      "phrase": "academic performance, academic year",
+      "ex": "Her academic performance has improved markedly.（她的学业表现显著提高了。）"
+    },
+    {
+      "word": "accelerate",
+      "ipa": "/əkˈseləreɪt/",
+      "pos": "v.",
+      "root": "celer = swift",
+      "affix": "ac- = to; -celer = swift",
+      "syn": "speed up, hasten, quicken",
+      "near": "accelerate vs. hasten",
+      "phrase": "accelerate growth, accelerate the process",
+      "ex": "The policy accelerated economic recovery.（该政策加速了经济复苏。）"
+    },
+    {
+      "word": "access",
+      "ipa": "/ˈækses/",
+      "pos": "n./v.",
+      "root": "cess = go",
+      "affix": "ac- = to; -cess = go",
+      "syn": "entry, approach, admission",
+      "near": "access vs. excess",
+      "phrase": "have access to, gain access",
+      "ex": "Students have free access to the library.（学生可免费使用图书馆。）"
+    },
+    {
+      "word": "accomplish",
+      "ipa": "/əˈkʌmplɪʃ/",
+      "pos": "v.",
+      "root": "pli = fill",
+      "affix": "ac- = to; com- = fully; -plish = fill",
+      "syn": "achieve, complete, fulfil",
+      "near": "accomplish vs. achieve",
+      "phrase": "accomplish a task, accomplish one's goal",
+      "ex": "He accomplished his childhood dream.（他实现了童年的梦想。）"
+    },
+    {
+      "word": "acute",
+      "ipa": "/əˈkjuːt/",
+      "pos": "adj.",
+      "root": "acu = sharp",
+      "affix": "acu- = sharp; -te = adj",
+      "syn": "severe, intense, sharp",
+      "near": "acute vs. chronic",
+      "phrase": "acute pain, acute shortage",
+      "ex": "There is an acute shortage of clean water.（清洁水严重短缺。）"
+    },
+    {
+      "word": "adapt",
+      "ipa": "/əˈdæpt/",
+      "pos": "v.",
+      "root": "apt = fit",
+      "affix": "ad- = to; -apt = fit",
+      "syn": "adjust, modify, acclimatize",
+      "near": "adapt vs. adopt",
+      "phrase": "adapt to, adapt for",
+      "ex": "Plants adapt to the local climate.（植物适应当地气候。）"
+    },
+    {
+      "word": "barrier",
+      "ipa": "/ˈbæriə(r)/",
+      "pos": "n.",
+      "root": "bar = bar",
+      "affix": "-",
+      "syn": "obstacle, hindrance, blockade",
+      "near": "barrier vs. obstacle",
+      "phrase": "language barrier, trade barrier",
+      "ex": "The language barrier made communication difficult.（语言障碍使沟通变得困难。）"
+    },
+    {
+      "word": "beneficial",
+      "ipa": "/ˌbenɪˈfɪʃl/",
+      "pos": "adj.",
+      "root": "bene = good",
+      "affix": "bene- = good; -fic = do; -al = adj",
+      "syn": "advantageous, helpful, useful",
+      "near": "beneficial vs. useful",
+      "phrase": "beneficial to, mutually beneficial",
+      "ex": "Exercise is beneficial to your health.（运动对健康有益。）"
+    },
+    {
+      "word": "bias",
+      "ipa": "/ˈbaɪəs/",
+      "pos": "n.",
+      "root": "-",
+      "affix": "-",
+      "syn": "prejudice, partiality, inclination",
+      "near": "bias vs. prejudice",
+      "phrase": "cognitive bias, bias against",
+      "ex": "The report shows a clear bias against women.（报告明显对女性有偏见。）"
+    },
+    {
+      "word": "boycott",
+      "ipa": "/ˈbɔɪkɒt/",
+      "pos": "v.",
+      "root": "-",
+      "affix": "-",
+      "syn": "refuse, reject, avoid",
+      "near": "boycott vs. strike",
+      "phrase": "boycott a product, boycott goods",
+      "ex": "Consumers boycotted the brand over labor issues.（消费者因劳工问题抵制该品牌。）"
+    },
+    {
+      "word": "breach",
+      "ipa": "/briːtʃ/",
+      "pos": "n./v.",
+      "root": "break",
+      "affix": "-",
+      "syn": "break, violation, gap",
+      "near": "breach vs. break",
+      "phrase": "breach of contract, data breach",
+      "ex": "The company suffered a major data breach.（公司遭遇重大数据泄露。）"
+    },
+    {
+      "word": "burden",
+      "ipa": "/ˈbɜːdn/",
+      "pos": "n.",
+      "root": "burthen",
+      "affix": "-",
+      "syn": "load, weight, responsibility",
+      "near": "burden vs. load",
+      "phrase": "financial burden, bear a burden",
+      "ex": "The tax adds a burden to low-income families.（税收给低收入家庭增加了负担。）"
+    },
+    {
+      "word": "byproduct",
+      "ipa": "/ˈbaɪprɒdʌkt/",
+      "pos": "n.",
+      "root": "by + product",
+      "affix": "by- = secondary",
+      "syn": "spin-off, side effect, offshoot",
+      "near": "byproduct vs. product",
+      "phrase": "harmful byproduct, industrial byproduct",
+      "ex": "Carbon dioxide is a byproduct of combustion.（二氧化碳是燃烧的副产品。）"
+    },
+    {
+      "word": "brutal",
+      "ipa": "/ˈbruːtl/",
+      "pos": "adj.",
+      "root": "brut = beast",
+      "affix": "-al = adj",
+      "syn": "cruel, savage, harsh",
+      "near": "brutal vs. cruel",
+      "phrase": "brutal murder, brutally honest",
+      "ex": "The winters here are brutally cold.（这里的冬天冷得刺骨。）"
+    },
+    {
+      "word": "boundary",
+      "ipa": "/ˈbaʊndri/",
+      "pos": "n.",
+      "root": "bound = limit",
+      "affix": "bound- = bind; -ary = n",
+      "syn": "border, limit, edge",
+      "near": "boundary vs. border",
+      "phrase": "set a boundary, cross the boundary",
+      "ex": "We must respect personal boundaries.（我们必须尊重个人边界。）"
+    },
+    {
+      "word": "calculate",
+      "ipa": "/ˈkælkjuleɪt/",
+      "pos": "v.",
+      "root": "calc = stone",
+      "affix": "cal- = stone; -cul = small; -ate = v",
+      "syn": "compute, reckon, estimate",
+      "near": "calculate vs. compute",
+      "phrase": "calculate the cost, carefully calculated",
+      "ex": "We calculated the risk before investing.（投资前我们计算了风险。）"
+    },
+    {
+      "word": "capacity",
+      "ipa": "/kəˈpæsəti/",
+      "pos": "n.",
+      "root": "cap = hold",
+      "affix": "cap- = hold; -acity = n",
+      "syn": "ability, capability, volume",
+      "near": "capacity vs. capability",
+      "phrase": "carrying capacity, in a capacity",
+      "ex": "The hall has a capacity of 500 people.（大厅可容纳500人。）"
+    },
+    {
+      "word": "cautious",
+      "ipa": "/ˈkɔːʃəs/",
+      "pos": "adj.",
+      "root": "caut = careful",
+      "affix": "-ous = adj",
+      "syn": "careful, prudent, wary",
+      "near": "cautious vs. careful",
+      "phrase": "cautious about, cautiously optimistic",
+      "ex": "Investors are cautious about the market.（投资者对市场持谨慎态度。）"
+    },
+    {
+      "word": "cease",
+      "ipa": "/siːs/",
+      "pos": "v.",
+      "root": "cess = stop",
+      "affix": "-",
+      "syn": "stop, halt, end",
+      "near": "cease vs. stop",
+      "phrase": "cease fire, cease to exist",
+      "ex": "The factory ceased production last year.（工厂去年停产了。）"
+    },
+    {
+      "word": "circumvent",
+      "ipa": "/ˌsɜːkəmˈvent/",
+      "pos": "v.",
+      "root": "vent = come",
+      "affix": "circum- = around; -vent = come",
+      "syn": "bypass, evade, avoid",
+      "near": "circumvent vs. bypass",
+      "phrase": "circumvent the law, circumvent a problem",
+      "ex": "They tried to circumvent the new regulation.（他们试图规避新规。）"
+    },
+    {
+      "word": "coherent",
+      "ipa": "/kəʊˈhɪərənt/",
+      "pos": "adj.",
+      "root": "her = stick",
+      "affix": "co- = together; -her = stick; -ent = adj",
+      "syn": "logical, consistent, clear",
+      "near": "coherent vs. consistent",
+      "phrase": "coherent argument, coherent policy",
+      "ex": "She presented a coherent analysis of the issue.（她对该问题作了条理清晰的分析。）"
+    },
+    {
+      "word": "compensate",
+      "ipa": "/ˈkɒmpenseɪt/",
+      "pos": "v.",
+      "root": "pens = weigh",
+      "affix": "com- = with; -pens = weigh; -ate = v",
+      "syn": "repay, reimburse, make up for",
+      "near": "compensate vs. reimburse",
+      "phrase": "compensate for, compensate sb for",
+      "ex": "The firm compensated victims for the loss.（公司赔偿了受害者的损失。）"
+    },
+    {
+      "word": "conceive",
+      "ipa": "/kənˈsiːv/",
+      "pos": "v.",
+      "root": "cept = take",
+      "affix": "con- = thoroughly; -ceive = take",
+      "syn": "imagine, think, devise",
+      "near": "conceive vs. perceive",
+      "phrase": "conceive of, conceive a plan",
+      "ex": "Scientists conceived a new theory of the universe.（科学家构想出一种新宇宙理论。）"
+    },
+    {
+      "word": "complement",
+      "ipa": "/ˈkɒmplɪment/",
+      "pos": "n./v.",
+      "root": "ple = fill",
+      "affix": "com- = with; -ple = fill; -ment = n",
+      "syn": "supplement, complete, counterpart",
+      "near": "complement vs. compliment",
+      "phrase": "complement each other, complement to",
+      "ex": "The wine complements the meal perfectly.（葡萄酒与餐食相得益彰。）"
+    },
+    {
+      "word": "decline",
+      "ipa": "/dɪˈklaɪn/",
+      "pos": "v./n.",
+      "root": "clin = bend",
+      "affix": "de- = down; -clin = bend",
+      "syn": "decrease, fall, refuse",
+      "near": "decline vs. refuse",
+      "phrase": "on the decline, decline an offer",
+      "ex": "The population has been in decline.（人口一直在减少。）"
+    },
+    {
+      "word": "dedicate",
+      "ipa": "/ˈdedɪkeɪt/",
+      "pos": "v.",
+      "root": "dic = say",
+      "affix": "de- = down; -dic = speak",
+      "syn": "devote, commit, consecrate",
+      "near": "dedicate vs. devote",
+      "phrase": "dedicate to, dedicate oneself to",
+      "ex": "She dedicated her life to science.（她献身于科学。）"
+    },
+    {
+      "word": "deficit",
+      "ipa": "/ˈdefɪsɪt/",
+      "pos": "n.",
+      "root": "fic = do",
+      "affix": "de- = away; -fic = do",
+      "syn": "shortfall, loss, shortage",
+      "near": "deficit vs. debt",
+      "phrase": "budget deficit, trade deficit",
+      "ex": "The country faces a huge budget deficit.（该国面临巨额财政赤字。）"
+    },
+    {
+      "word": "deliberate",
+      "ipa": "/dɪˈlɪbərət/",
+      "pos": "adj./v.",
+      "root": "liber = weigh",
+      "affix": "de- = thoroughly; -liber = weigh",
+      "syn": "intentional, careful, consider",
+      "near": "deliberate vs. intentional",
+      "phrase": "deliberate mistake, deliberate on",
+      "ex": "The jury deliberated for two days.（陪审团审议了两天。）"
+    },
+    {
+      "word": "demonstrate",
+      "ipa": "/ˈdemənstreɪt/",
+      "pos": "v.",
+      "root": "monstr = show",
+      "affix": "de- = fully; -monstr = show",
+      "syn": "show, prove, display",
+      "near": "demonstrate vs. show",
+      "phrase": "demonstrate a skill, demonstrate against",
+      "ex": "The study demonstrates a clear link.（研究证明了明确的关联。）"
+    },
+    {
+      "word": "depict",
+      "ipa": "/dɪˈpɪkt/",
+      "pos": "v.",
+      "root": "pict = paint",
+      "affix": "de- = down; -pict = paint",
+      "syn": "portray, describe, represent",
+      "near": "depict vs. describe",
+      "phrase": "depict as, vividly depict",
+      "ex": "The novel depicts life in the 19th century.（小说描绘了19世纪的生活。）"
+    },
+    {
+      "word": "derive",
+      "ipa": "/dɪˈraɪv/",
+      "pos": "v.",
+      "root": "riv = stream",
+      "affix": "de- = from; -riv = stream",
+      "syn": "obtain, originate, stem",
+      "near": "derive vs. stem",
+      "phrase": "derive from, derive pleasure",
+      "ex": "The word is derived from Latin.（该词源自拉丁语。）"
+    },
+    {
+      "word": "diminish",
+      "ipa": "/dɪˈmɪnɪʃ/",
+      "pos": "v.",
+      "root": "min = small",
+      "affix": "di- = apart; -min = small; -ish = v",
+      "syn": "reduce, decrease, lessen",
+      "near": "diminish vs. reduce",
+      "phrase": "diminish in, diminish the value",
+      "ex": "His influence has diminished over time.（他的影响力随时间减弱。）"
+    },
+    {
+      "word": "distinct",
+      "ipa": "/dɪˈstɪŋkt/",
+      "pos": "adj.",
+      "root": "sting = prick",
+      "affix": "di- = apart; -stinct = prick",
+      "syn": "separate, clear, different",
+      "near": "distinct vs. different",
+      "phrase": "distinct from, distinct feature",
+      "ex": "The two ideas are quite distinct.（这两个想法截然不同。）"
+    },
+    {
+      "word": "eccentric",
+      "ipa": "/ɪkˈsentrɪk/",
+      "pos": "adj.",
+      "root": "centr = center",
+      "affix": "ec- = out; -centr = center; -ic = adj",
+      "syn": "odd, strange, peculiar",
+      "near": "eccentric vs. weird",
+      "phrase": "eccentric behavior, an eccentric man",
+      "ex": "He is known for his eccentric habits.（他以古怪的习惯闻名。）"
+    },
+    {
+      "word": "eliminate",
+      "ipa": "/ɪˈlɪmɪneɪt/",
+      "pos": "v.",
+      "root": "limin = threshold",
+      "affix": "e- = out; -limin = threshold; -ate = v",
+      "syn": "remove, abolish, eradicate",
+      "near": "eliminate vs. remove",
+      "phrase": "eliminate poverty, eliminate risk",
+      "ex": "The vaccine eliminated the disease.（疫苗根除了这种疾病。）"
+    },
+    {
+      "word": "embark",
+      "ipa": "/ɪmˈbɑːk/",
+      "pos": "v.",
+      "root": "barc = ship",
+      "affix": "em- = in; -bark = ship",
+      "syn": "begin, commence, board",
+      "near": "embark vs. begin",
+      "phrase": "embark on, embark upon",
+      "ex": "They embarked on a new journey.（他们开启了一段新旅程。）"
+    },
+    {
+      "word": "emerge",
+      "ipa": "/ɪˈmɜːdʒ/",
+      "pos": "v.",
+      "root": "merg = plunge",
+      "affix": "e- = out; -merg = plunge",
+      "syn": "appear, arise, surface",
+      "near": "emerge vs. appear",
+      "phrase": "emerge from, emerge as",
+      "ex": "A new leader emerged from the crisis.（一位新领袖在危机中脱颖而出。）"
+    },
+    {
+      "word": "emphasize",
+      "ipa": "/ˈemfəsaɪz/",
+      "pos": "v.",
+      "root": "phas = show",
+      "affix": "em- = in; -phas = show; -ize = v",
+      "syn": "stress, highlight, underline",
+      "near": "emphasize vs. stress",
+      "phrase": "emphasize the need, strongly emphasize",
+      "ex": "She emphasized the importance of teamwork.（她强调了团队合作的重要性。）"
+    },
+    {
+      "word": "encompass",
+      "ipa": "/ɪnˈkʌmpəs/",
+      "pos": "v.",
+      "root": "compass",
+      "affix": "en- = in; com- = around; -pass = step",
+      "syn": "include, cover, surround",
+      "near": "encompass vs. include",
+      "phrase": "encompass all, encompass a range",
+      "ex": "The course encompasses many topics.（课程涵盖许多主题。）"
+    },
+    {
+      "word": "enhance",
+      "ipa": "/ɪnˈhɑːns/",
+      "pos": "v.",
+      "root": "haut = high",
+      "affix": "en- = make; -hanc = high",
+      "syn": "improve, boost, heighten",
+      "near": "enhance vs. improve",
+      "phrase": "enhance performance, enhance the image",
+      "ex": "Good lighting enhances the photo.（良好的光线提升了照片效果。）"
+    },
+    {
+      "word": "essential",
+      "ipa": "/ɪˈsenʃl/",
+      "pos": "adj.",
+      "root": "ess = be",
+      "affix": "es- = out; -sent = be; -ial = adj",
+      "syn": "vital, crucial, necessary",
+      "near": "essential vs. necessary",
+      "phrase": "essential to, essential for",
+      "ex": "Water is essential to life.（水对生命至关重要。）"
+    },
+    {
+      "word": "equivalent",
+      "ipa": "/ɪˈkwɪvələnt/",
+      "pos": "adj./n.",
+      "root": "equ = equal",
+      "affix": "equi- = equal; -val = worth; -ent = adj",
+      "syn": "equal, comparable, corresponding",
+      "near": "equivalent vs. equal",
+      "phrase": "equivalent to, rough equivalent",
+      "ex": "A mile is equivalent to about 1.6 km.（一英里约等于1.6公里。）"
+    },
+    {
+      "word": "facilitate",
+      "ipa": "/fəˈsɪlɪteɪt/",
+      "pos": "v.",
+      "root": "facil = easy",
+      "affix": "facil- = easy; -ate = v",
+      "syn": "ease, assist, enable",
+      "near": "facilitate vs. help",
+      "phrase": "facilitate communication, facilitate change",
+      "ex": "The app facilitates online learning.（该应用促进了在线学习。）"
+    },
+    {
+      "word": "feasible",
+      "ipa": "/ˈfiːzəbl/",
+      "pos": "adj.",
+      "root": "fa = do",
+      "affix": "feas- = do; -ible = able",
+      "syn": "possible, practicable, viable",
+      "near": "feasible vs. possible",
+      "phrase": "feasible plan, technically feasible",
+      "ex": "The project is financially feasible.（该项目在财务上可行。）"
+    },
+    {
+      "word": "fluctuate",
+      "ipa": "/ˈflʌktʃueɪt/",
+      "pos": "v.",
+      "root": "fluct = flow",
+      "affix": "fluct- = wave; -ate = v",
+      "syn": "vary, oscillate, change",
+      "near": "fluctuate vs. vary",
+      "phrase": "fluctuate between, prices fluctuate",
+      "ex": "Prices fluctuate with the season.（价格随季节波动。）"
+    },
+    {
+      "word": "foremost",
+      "ipa": "/ˈfɔːməʊst/",
+      "pos": "adj.",
+      "root": "fore + most",
+      "affix": "fore- = before; -most = superlative",
+      "syn": "leading, principal, chief",
+      "near": "foremost vs. leading",
+      "phrase": "first and foremost, the foremost expert",
+      "ex": "He is the foremost expert in the field.（他是该领域最权威的专家。）"
+    },
+    {
+      "word": "fragile",
+      "ipa": "/ˈfrædʒaɪl/",
+      "pos": "adj.",
+      "root": "frag = break",
+      "affix": "frag- = break; -ile = adj",
+      "syn": "delicate, weak, breakable",
+      "near": "fragile vs. delicate",
+      "phrase": "fragile economy, fragile peace",
+      "ex": "The peace agreement is fragile.（和平协议很脆弱。）"
+    },
+    {
+      "word": "fundamental",
+      "ipa": "/ˌfʌndəˈmentl/",
+      "pos": "adj.",
+      "root": "fund = base",
+      "affix": "fund- = base; -ment = n; -al = adj",
+      "syn": "basic, essential, primary",
+      "near": "fundamental vs. basic",
+      "phrase": "fundamental right, fundamental change",
+      "ex": "Education is fundamental to development.（教育对发展至关重要。）"
+    },
+    {
+      "word": "furnish",
+      "ipa": "/ˈfɜːnɪʃ/",
+      "pos": "v.",
+      "root": "furn = supply",
+      "affix": "-",
+      "syn": "provide, supply, equip",
+      "near": "furnish vs. provide",
+      "phrase": "furnish with, fully furnished",
+      "ex": "The apartment is furnished with modern decor.（公寓配有现代家具。）"
+    },
+    {
+      "word": "futile",
+      "ipa": "/ˈfjuːtaɪl/",
+      "pos": "adj.",
+      "root": "futil = useless",
+      "affix": "-",
+      "syn": "useless, vain, pointless",
+      "near": "futile vs. vain",
+      "phrase": "futile attempt, futile effort",
+      "ex": "It was a futile attempt to save him.（挽救他的努力是徒劳的。）"
+    },
+    {
+      "word": "foster",
+      "ipa": "/ˈfɒstə(r)/",
+      "pos": "v.",
+      "root": "-",
+      "affix": "-",
+      "syn": "encourage, nurture, promote",
+      "near": "foster vs. encourage",
+      "phrase": "foster growth, foster cooperation",
+      "ex": "The policy fosters innovation.（政策鼓励创新。）"
+    },
+    {
+      "word": "generate",
+      "ipa": "/ˈdʒenəreɪt/",
+      "pos": "v.",
+      "root": "gen = birth",
+      "affix": "gen- = produce; -ate = v",
+      "syn": "produce, create, cause",
+      "near": "generate vs. produce",
+      "phrase": "generate income, generate power",
+      "ex": "Wind turbines generate electricity.（风力涡轮机发电。）"
+    },
+    {
+      "word": "genuine",
+      "ipa": "/ˈdʒenjʊɪn/",
+      "pos": "adj.",
+      "root": "gen = birth",
+      "affix": "gen- = birth; -uine = adj",
+      "syn": "real, authentic, sincere",
+      "near": "genuine vs. authentic",
+      "phrase": "genuine concern, genuine article",
+      "ex": "She showed genuine interest in the topic.（她表现出真正的兴趣。）"
+    },
+    {
+      "word": "global",
+      "ipa": "/ˈɡləʊbl/",
+      "pos": "adj.",
+      "root": "glob = ball",
+      "affix": "glob- = ball; -al = adj",
+      "syn": "worldwide, international, universal",
+      "near": "global vs. international",
+      "phrase": "global warming, global market",
+      "ex": "Global trade has expanded rapidly.（全球贸易迅速扩张。）"
+    },
+    {
+      "word": "grasp",
+      "ipa": "/ɡrɑːsp/",
+      "pos": "v.",
+      "root": "-",
+      "affix": "-",
+      "syn": "grip, understand, seize",
+      "near": "grasp vs. comprehend",
+      "phrase": "grasp the meaning, within one's grasp",
+      "ex": "He quickly grasped the concept.（他很快理解了这个概念。）"
+    },
+    {
+      "word": "guarantee",
+      "ipa": "/ˌɡærənˈtiː/",
+      "pos": "n./v.",
+      "root": "guard",
+      "affix": "-",
+      "syn": "assure, warrant, ensure",
+      "near": "guarantee vs. ensure",
+      "phrase": "guarantee of, guarantee success",
+      "ex": "The contract guarantees a fixed salary.（合同保证固定薪资。）"
+    },
+    {
+      "word": "gravity",
+      "ipa": "/ˈɡrævəti/",
+      "pos": "n.",
+      "root": "grav = heavy",
+      "affix": "grav- = heavy; -ity = n",
+      "syn": "seriousness, weight, force",
+      "near": "gravity vs. seriousness",
+      "phrase": "sense of gravity, gravity of the situation",
+      "ex": "He didn't grasp the gravity of his mistake.（他没意识到错误的严重性。）"
+    },
+    {
+      "word": "grievance",
+      "ipa": "/ˈɡriːvəns/",
+      "pos": "n.",
+      "root": "grav = heavy",
+      "affix": "griev- = burden; -ance = n",
+      "syn": "complaint, resentment, quarrel",
+      "near": "grievance vs. complaint",
+      "phrase": "air grievances, have a grievance",
+      "ex": "Workers voiced their grievances.（工人们表达了不满。）"
+    },
+    {
+      "word": "gap",
+      "ipa": "/ɡæp/",
+      "pos": "n.",
+      "root": "-",
+      "affix": "-",
+      "syn": "opening, difference, gulf",
+      "near": "gap vs. difference",
+      "phrase": "generation gap, bridge the gap",
+      "ex": "Education helps bridge the gap.（教育有助于弥合差距。）"
+    },
+    {
+      "word": "harbor",
+      "ipa": "/ˈhɑːbə(r)/",
+      "pos": "v./n.",
+      "root": "here = army",
+      "affix": "-",
+      "syn": "shelter, hold, nurture",
+      "near": "harbor vs. shelter",
+      "phrase": "harbor doubts, harbor a grudge",
+      "ex": "He harbors doubts about the plan.（他对计划心存疑虑。）"
+    },
+    {
+      "word": "hierarchy",
+      "ipa": "/ˈhaɪərɑːki/",
+      "pos": "n.",
+      "root": "arch = rule",
+      "affix": "hier- = sacred; -arch = rule",
+      "syn": "ranking, order, structure",
+      "near": "hierarchy vs. ranking",
+      "phrase": "social hierarchy, strict hierarchy",
+      "ex": "The company has a clear hierarchy.（公司有清晰的层级结构。）"
+    },
+    {
+      "word": "hypothesis",
+      "ipa": "/haɪˈpɒθəsɪs/",
+      "pos": "n.",
+      "root": "thes = put",
+      "affix": "hypo- = under; -thes = put; -is = n",
+      "syn": "theory, assumption, proposition",
+      "near": "hypothesis vs. theory",
+      "phrase": "test a hypothesis, working hypothesis",
+      "ex": "The hypothesis was later confirmed.（该假设后来得到证实。）"
+    },
+    {
+      "word": "humble",
+      "ipa": "/ˈhʌmbl/",
+      "pos": "adj.",
+      "root": "hum = ground",
+      "affix": "hum- = ground; -ble = adj",
+      "syn": "modest, lowly, unassuming",
+      "near": "humble vs. modest",
+      "phrase": "humble origins, eat humble pie",
+      "ex": "Despite fame, he remains humble.（尽管成名，他依然谦逊。）"
+    },
+    {
+      "word": "hinder",
+      "ipa": "/ˈhɪndə(r)/",
+      "pos": "v.",
+      "root": "-",
+      "affix": "-",
+      "syn": "obstruct, impede, block",
+      "near": "hinder vs. obstruct",
+      "phrase": "hinder progress, hindered by",
+      "ex": "Bad weather hindered the search.（恶劣天气阻碍了搜救。）"
+    },
+    {
+      "word": "harsh",
+      "ipa": "/hɑːʃ/",
+      "pos": "adj.",
+      "root": "-",
+      "affix": "-",
+      "syn": "severe, cruel, rough",
+      "near": "harsh vs. severe",
+      "phrase": "harsh climate, harsh criticism",
+      "ex": "The punishment seems unduly harsh.（惩罚似乎过于严厉。）"
+    },
+    {
+      "word": "highlight",
+      "ipa": "/ˈhaɪlaɪt/",
+      "pos": "v.",
+      "root": "high + light",
+      "affix": "-",
+      "syn": "emphasize, spotlight, stress",
+      "near": "highlight vs. emphasize",
+      "phrase": "highlight the issue, highlights of",
+      "ex": "The report highlights rising inequality.（报告凸显了日益加剧的不平等。）"
+    },
+    {
+      "word": "heritage",
+      "ipa": "/ˈherɪtɪdʒ/",
+      "pos": "n.",
+      "root": "herit = heir",
+      "affix": "herit- = inherit; -age = n",
+      "syn": "legacy, inheritance, tradition",
+      "near": "heritage vs. legacy",
+      "phrase": "cultural heritage, world heritage",
+      "ex": "The town has rich cultural heritage.（小镇有丰富的文化遗产。）"
+    },
+    {
+      "word": "illustrate",
+      "ipa": "/ˈɪləstreɪt/",
+      "pos": "v.",
+      "root": "lustr = light",
+      "affix": "il- = in; -lustr = light; -ate = v",
+      "syn": "explain, demonstrate, depict",
+      "near": "illustrate vs. demonstrate",
+      "phrase": "illustrate with, as illustrated by",
+      "ex": "Let me illustrate with an example.（我举例说明一下。）"
+    },
+    {
+      "word": "imitate",
+      "ipa": "/ˈɪmɪteɪt/",
+      "pos": "v.",
+      "root": "imit = copy",
+      "affix": "-",
+      "syn": "copy, mimic, emulate",
+      "near": "imitate vs. mimic",
+      "phrase": "imitate sb, imitate a style",
+      "ex": "Children imitate adult behavior.（儿童模仿成人行为。）"
+    },
+    {
+      "word": "impact",
+      "ipa": "/ˈɪmpækt/",
+      "pos": "n./v.",
+      "root": "pact = fasten",
+      "affix": "im- = in; -pact = fasten",
+      "syn": "effect, influence, collision",
+      "near": "impact vs. effect",
+      "phrase": "have an impact, impact on",
+      "ex": "The policy had a major impact.（该政策影响重大。）"
+    },
+    {
+      "word": "implement",
+      "ipa": "/ˈɪmplɪment/",
+      "pos": "v.",
+      "root": "ple = fill",
+      "affix": "im- = in; -ple = fill; -ment = n",
+      "syn": "carry out, execute, apply",
+      "near": "implement vs. execute",
+      "phrase": "implement a plan, implement policy",
+      "ex": "The school implemented new rules.（学校实施了新规定。）"
+    },
+    {
+      "word": "imply",
+      "ipa": "/ɪmˈplaɪ/",
+      "pos": "v.",
+      "root": "ply = fold",
+      "affix": "im- = in; -ply = fold",
+      "syn": "suggest, indicate, hint",
+      "near": "imply vs. infer",
+      "phrase": "imply that, what does it imply",
+      "ex": "His silence implied disagreement.（他的沉默暗示着反对。）"
+    },
+    {
+      "word": "impose",
+      "ipa": "/ɪmˈpəʊz/",
+      "pos": "v.",
+      "root": "pos = put",
+      "affix": "im- = on; -pos = put",
+      "syn": "enforce, levy, inflict",
+      "near": "impose vs. enforce",
+      "phrase": "impose a tax, impose on",
+      "ex": "The government imposed a new tax.（政府开征了新税。）"
+    },
+    {
+      "word": "incentive",
+      "ipa": "/ɪnˈsentɪv/",
+      "pos": "n.",
+      "root": "cent = sing",
+      "affix": "in- = in; -cent = charm; -ive = n",
+      "syn": "motivation, inducement, stimulus",
+      "near": "incentive vs. motivation",
+      "phrase": "provide an incentive, financial incentive",
+      "ex": "Tax cuts offer an incentive to invest.（减税提供了投资激励。）"
+    },
+    {
+      "word": "incorporate",
+      "ipa": "/ɪnˈkɔːpəreɪt/",
+      "pos": "v.",
+      "root": "corp = body",
+      "affix": "in- = in; -corp = body; -ate = v",
+      "syn": "include, integrate, combine",
+      "near": "incorporate vs. integrate",
+      "phrase": "incorporate into, incorporate feedback",
+      "ex": "We incorporated your suggestions.（我们采纳了你的建议。）"
+    },
+    {
+      "word": "intend",
+      "ipa": "/ɪnˈtend/",
+      "pos": "v.",
+      "root": "tend = stretch",
+      "affix": "in- = toward; -tend = stretch",
+      "syn": "plan, mean, aim",
+      "near": "intend vs. plan",
+      "phrase": "intend to, intend for",
+      "ex": "I intend to apply soon.（我打算很快申请。）"
+    },
+    {
+      "word": "justify",
+      "ipa": "/ˈdʒʌstɪfaɪ/",
+      "pos": "v.",
+      "root": "just = right",
+      "affix": "just- = right; -ify = make",
+      "syn": "defend, warrant, vindicate",
+      "near": "justify vs. defend",
+      "phrase": "justify the cost, hard to justify",
+      "ex": "Nothing can justify such cruelty.（没有什么能为这种残忍开脱。）"
+    },
+    {
+      "word": "jeopardize",
+      "ipa": "/ˈdʒepədaɪz/",
+      "pos": "v.",
+      "root": "-",
+      "affix": "-",
+      "syn": "endanger, risk, threaten",
+      "near": "jeopardize vs. endanger",
+      "phrase": "jeopardize one's career, jeopardize the deal",
+      "ex": "The scandal jeopardized his career.（丑闻危及他的事业。）"
+    },
+    {
+      "word": "jargon",
+      "ipa": "/ˈdʒɑːɡən/",
+      "pos": "n.",
+      "root": "-",
+      "affix": "-",
+      "syn": "terminology, slang, lingo",
+      "near": "jargon vs. slang",
+      "phrase": "technical jargon, legal jargon",
+      "ex": "The report is full of jargon.（报告充满行话。）"
+    },
+    {
+      "word": "joint",
+      "ipa": "/dʒɔɪnt/",
+      "pos": "adj./n.",
+      "root": "junct = join",
+      "affix": "join- = join; -t = adj",
+      "syn": "shared, combined, common",
+      "near": "joint vs. shared",
+      "phrase": "joint effort, joint venture",
+      "ex": "They made a joint statement.（他们发表了联合声明。）"
+    },
+    {
+      "word": "keen",
+      "ipa": "/kiːn/",
+      "pos": "adj.",
+      "root": "-",
+      "affix": "-",
+      "syn": "eager, sharp, intense",
+      "near": "keen vs. eager",
+      "phrase": "keen on, keen interest",
+      "ex": "She is keen on learning languages.（她热衷于学语言。）"
+    },
+    {
+      "word": "knowledge",
+      "ipa": "/ˈnɒlɪdʒ/",
+      "pos": "n.",
+      "root": "know",
+      "affix": "-",
+      "syn": "understanding, information, expertise",
+      "near": "knowledge vs. wisdom",
+      "phrase": "to my knowledge, knowledge of",
+      "ex": "He has extensive knowledge of history.（他历史知识渊博。）"
+    },
+    {
+      "word": "knockout",
+      "ipa": "/ˈnɒkaʊt/",
+      "pos": "n./adj.",
+      "root": "knock + out",
+      "affix": "-",
+      "syn": "stunning, decisive, excellent",
+      "near": "knockout vs. stunning",
+      "phrase": "knockout blow, knockout stage",
+      "ex": "The team won by a knockout.（球队以击倒式胜利取胜。）"
+    },
+    {
+      "word": "knit",
+      "ipa": "/nɪt/",
+      "pos": "v.",
+      "root": "-",
+      "affix": "-",
+      "syn": "unite, join, bond",
+      "near": "knit vs. unite",
+      "phrase": "knit together, knit a sweater",
+      "ex": "The team is tightly knit.（团队紧密团结。）"
+    },
+    {
+      "word": "legitimate",
+      "ipa": "/lɪˈdʒɪtɪmət/",
+      "pos": "adj.",
+      "root": "leg = law",
+      "affix": "leg- = law; -itim = adj",
+      "syn": "lawful, valid, rightful",
+      "near": "legitimate vs. legal",
+      "phrase": "legitimate concern, legitimate business",
+      "ex": "He has a legitimate complaint.（他有正当的投诉理由。）"
+    },
+    {
+      "word": "lucrative",
+      "ipa": "/ˈluːkrətɪv/",
+      "pos": "adj.",
+      "root": "lucr = money",
+      "affix": "lucr- = gain; -ative = adj",
+      "syn": "profitable, gainful, paying",
+      "near": "lucrative vs. profitable",
+      "phrase": "lucrative job, lucrative market",
+      "ex": "Tech is a lucrative industry.（科技是利润丰厚的行业。）"
+    },
+    {
+      "word": "linger",
+      "ipa": "/ˈlɪŋɡə(r)/",
+      "pos": "v.",
+      "root": "-",
+      "affix": "-",
+      "syn": "remain, loiter, persist",
+      "near": "linger vs. remain",
+      "phrase": "linger on, linger over",
+      "ex": "The smell lingered in the room.（气味在房间久久不散。）"
+    },
+    {
+      "word": "logical",
+      "ipa": "/ˈlɒdʒɪkl/",
+      "pos": "adj.",
+      "root": "log = reason",
+      "affix": "log- = reason; -ical = adj",
+      "syn": "rational, sensible, coherent",
+      "near": "logical vs. rational",
+      "phrase": "logical conclusion, logical step",
+      "ex": "That's the logical next step.（那是合乎逻辑的下一步。）"
+    },
+    {
+      "word": "loyal",
+      "ipa": "/ˈlɔɪəl/",
+      "pos": "adj.",
+      "root": "loy = law",
+      "affix": "loy- = law; -al = adj",
+      "syn": "faithful, devoted, true",
+      "near": "loyal vs. faithful",
+      "phrase": "loyal to, loyal customer",
+      "ex": "Customers remain loyal to the brand.（顾客对该品牌保持忠诚。）"
+    },
+    {
+      "word": "lure",
+      "ipa": "/lʊə(r)/",
+      "pos": "v.",
+      "root": "-",
+      "affix": "-",
+      "syn": "attract, tempt, entice",
+      "near": "lure vs. attract",
+      "phrase": "lure into, lure away",
+      "ex": "Ads lure customers with discounts.（广告用折扣吸引顾客。）"
+    },
+    {
+      "word": "launch",
+      "ipa": "/lɔːntʃ/",
+      "pos": "v.",
+      "root": "-",
+      "affix": "-",
+      "syn": "start, introduce, release",
+      "near": "launch vs. start",
+      "phrase": "launch a product, launch an attack",
+      "ex": "The firm launched a new app.（公司推出了一款新应用。）"
+    },
+    {
+      "word": "levy",
+      "ipa": "/ˈlevi/",
+      "pos": "v./n.",
+      "root": "-",
+      "affix": "-",
+      "syn": "impose, charge, tax",
+      "near": "levy vs. impose",
+      "phrase": "levy a tax, levy on",
+      "ex": "The city levied a tax on hotels.（该市对酒店征税。）"
+    },
+    {
+      "word": "liability",
+      "ipa": "/ˌlaɪəˈbɪləti/",
+      "pos": "n.",
+      "root": "li = bind",
+      "affix": "li- = bind; -ability = n",
+      "syn": "responsibility, debt, obligation",
+      "near": "liability vs. responsibility",
+      "phrase": "legal liability, limited liability",
+      "ex": "The firm faces liability for the accident.（公司面临事故责任赔偿。）"
+    },
+    {
+      "word": "maintain",
+      "ipa": "/meɪnˈteɪn/",
+      "pos": "v.",
+      "root": "ten = hold",
+      "affix": "main- = hand; -tain = hold",
+      "syn": "keep, preserve, uphold",
+      "near": "maintain vs. preserve",
+      "phrase": "maintain order, maintain contact",
+      "ex": "We must maintain public trust.（我们必须维护公众信任。）"
+    },
+    {
+      "word": "manipulate",
+      "ipa": "/məˈnɪpjuleɪt/",
+      "pos": "v.",
+      "root": "man = hand",
+      "affix": "man- = hand; -pul = pull; -ate = v",
+      "syn": "control, exploit, handle",
+      "near": "manipulate vs. control",
+      "phrase": "manipulate data, manipulate public opinion",
+      "ex": "He manipulated the figures.（他篡改了数据。）"
+    },
+    {
+      "word": "minimize",
+      "ipa": "/ˈmɪnɪmaɪz/",
+      "pos": "v.",
+      "root": "min = small",
+      "affix": "minim- = smallest; -ize = v",
+      "syn": "reduce, lessen, decrease",
+      "near": "minimize vs. reduce",
+      "phrase": "minimize risk, minimize the impact",
+      "ex": "We should minimize waste.（我们应尽量减少浪费。）"
+    },
+    {
+      "word": "mitigate",
+      "ipa": "/ˈmɪtɪɡeɪt/",
+      "pos": "v.",
+      "root": "mit = soft",
+      "affix": "mit- = mild; -ig = drive; -ate = v",
+      "syn": "lessen, alleviate, ease",
+      "near": "mitigate vs. alleviate",
+      "phrase": "mitigate the effects, mitigate risk",
+      "ex": "Steps were taken to mitigate the damage.（已采取措施减轻损害。）"
+    },
+    {
+      "word": "momentum",
+      "ipa": "/məˈmentəm/",
+      "pos": "n.",
+      "root": "mov = move",
+      "affix": "mo- = move; -ment = n",
+      "syn": "drive, force, impetus",
+      "near": "momentum vs. drive",
+      "phrase": "gain momentum, maintain momentum",
+      "ex": "The campaign gained momentum.（运动势头渐起。）"
+    },
+    {
+      "word": "monopoly",
+      "ipa": "/məˈnɒpəli/",
+      "pos": "n.",
+      "root": "pol = sell",
+      "affix": "mono- = single; -pol = sell; -y = n",
+      "syn": "dominance, cartel, control",
+      "near": "monopoly vs. dominance",
+      "phrase": "monopoly power, break a monopoly",
+      "ex": "The firm holds a monopoly in the market.（公司垄断了市场。）"
+    },
+    {
+      "word": "mutual",
+      "ipa": "/ˈmjuːtʃuəl/",
+      "pos": "adj.",
+      "root": "mut = change",
+      "affix": "mut- = reciprocal; -ual = adj",
+      "syn": "shared, reciprocal, common",
+      "near": "mutual vs. common",
+      "phrase": "mutual benefit, mutual respect",
+      "ex": "They have mutual trust in each other.（他们彼此信任。）"
+    },
+    {
+      "word": "mandatory",
+      "ipa": "/ˈmændətəri/",
+      "pos": "adj.",
+      "root": "mand = order",
+      "affix": "mand- = order; -atory = adj",
+      "syn": "compulsory, required, obligatory",
+      "near": "mandatory vs. compulsory",
+      "phrase": "mandatory training, mandatory for",
+      "ex": "Safety gear is mandatory on site.（安全装备是强制要求的。）"
+    },
+    {
+      "word": "mandate",
+      "ipa": "/ˈmændeɪt/",
+      "pos": "n./v.",
+      "root": "mand = order",
+      "affix": "mand- = order; -ate = v",
+      "syn": "order, authorize, command",
+      "near": "mandate vs. order",
+      "phrase": "electoral mandate, mandate to",
+      "ex": "The law mandates safety checks.（法律强制进行安全检查。）"
+    },
+    {
+      "word": "neglect",
+      "ipa": "/nɪˈɡlekt/",
+      "pos": "v.",
+      "root": "lect = choose",
+      "affix": "neg- = not; -lect = choose",
+      "syn": "ignore, overlook, omit",
+      "near": "neglect vs. ignore",
+      "phrase": "neglect to, neglect one's duty",
+      "ex": "He neglected his own health.（他忽视了健康。）"
+    },
+    {
+      "word": "notion",
+      "ipa": "/ˈnəʊʃn/",
+      "pos": "n.",
+      "root": "not = know",
+      "affix": "not- = know; -ion = n",
+      "syn": "idea, concept, belief",
+      "near": "notion vs. idea",
+      "phrase": "have a notion, the notion that",
+      "ex": "He has no notion of the risk.（他毫无风险意识。）"
+    },
+    {
+      "word": "novel",
+      "ipa": "/ˈnɒvl/",
+      "pos": "adj.",
+      "root": "nov = new",
+      "affix": "nov- = new; -el = adj",
+      "syn": "new, original, fresh",
+      "near": "novel vs. new",
+      "phrase": "novel approach, novel idea",
+      "ex": "They proposed a novel solution.（他们提出了新颖的方案。）"
+    },
+    {
+      "word": "nurture",
+      "ipa": "/ˈnɜːtʃə(r)/",
+      "pos": "v.",
+      "root": "-",
+      "affix": "-",
+      "syn": "foster, nourish, care for",
+      "near": "nurture vs. foster",
+      "phrase": "nurture talent, nurture a relationship",
+      "ex": "Parents nurture their children's growth.（父母培育孩子成长。）"
+    },
+    {
+      "word": "notable",
+      "ipa": "/ˈnəʊtəbl/",
+      "pos": "adj.",
+      "root": "not = know",
+      "affix": "not- = know; -able = adj",
+      "syn": "remarkable, significant, noteworthy",
+      "near": "notable vs. remarkable",
+      "phrase": "notable exception, notable for",
+      "ex": "The book is notable for its clarity.（该书以清晰著称。）"
+    },
+    {
+      "word": "norm",
+      "ipa": "/nɔːm/",
+      "pos": "n.",
+      "root": "norm = rule",
+      "affix": "-",
+      "syn": "standard, rule, convention",
+      "near": "norm vs. standard",
+      "phrase": "social norm, the norm",
+      "ex": "Working late is the norm here.（加班在这里是常态。）"
+    },
+    {
+      "word": "neutral",
+      "ipa": "/ˈnjuːtrəl/",
+      "pos": "adj.",
+      "root": "neutr = neither",
+      "affix": "neutr- = neither; -al = adj",
+      "syn": "impartial, unbiased, middle",
+      "near": "neutral vs. impartial",
+      "phrase": "remain neutral, neutral tone",
+      "ex": "The mediator stayed neutral.（调解人保持中立。）"
+    },
+    {
+      "word": "narrative",
+      "ipa": "/ˈnærətɪv/",
+      "pos": "n.",
+      "root": "narr = tell",
+      "affix": "narr- = tell; -ative = n",
+      "syn": "story, account, tale",
+      "near": "narrative vs. story",
+      "phrase": "dominant narrative, personal narrative",
+      "ex": "The media shaped the public narrative.（媒体塑造了公共叙事。）"
+    },
+    {
+      "word": "obstacle",
+      "ipa": "/ˈɒbstəkl/",
+      "pos": "n.",
+      "root": "sta = stand",
+      "affix": "ob- = against; -sta = stand; -cle = n",
+      "syn": "barrier, hindrance, hurdle",
+      "near": "obstacle vs. barrier",
+      "phrase": "overcome an obstacle, major obstacle",
+      "ex": "Poverty is an obstacle to education.（贫困是教育的障碍。）"
+    },
+    {
+      "word": "obtain",
+      "ipa": "/əbˈteɪn/",
+      "pos": "v.",
+      "root": "ten = hold",
+      "affix": "ob- = to; -tain = hold",
+      "syn": "get, acquire, secure",
+      "near": "obtain vs. acquire",
+      "phrase": "obtain a degree, obtain permission",
+      "ex": "She obtained a scholarship.（她获得了奖学金。）"
+    },
+    {
+      "word": "obvious",
+      "ipa": "/ˈɒbviəs/",
+      "pos": "adj.",
+      "root": "vi = way",
+      "affix": "ob- = in; -vi = way; -ous = adj",
+      "syn": "clear, evident, apparent",
+      "near": "obvious vs. evident",
+      "phrase": "it is obvious, obvious reason",
+      "ex": "The answer is obvious to all.（答案对所有人来说都明显。）"
+    },
+    {
+      "word": "occupy",
+      "ipa": "/ˈɒkjupaɪ/",
+      "pos": "v.",
+      "root": "cup = take",
+      "affix": "oc- = upon; -cup = take; -y = v",
+      "syn": "fill, inhabit, engage",
+      "near": "occupy vs. engage",
+      "phrase": "occupy a role, occupy oneself with",
+      "ex": "The war occupied the headlines.（战争占据头条。）"
+    },
+    {
+      "word": "offset",
+      "ipa": "/ˈɒfset/",
+      "pos": "v.",
+      "root": "off + set",
+      "affix": "-",
+      "syn": "counterbalance, compensate, balance",
+      "near": "offset vs. compensate",
+      "phrase": "offset the cost, offset emissions",
+      "ex": "Savings offset the expense.（储蓄抵消了开支。）"
+    },
+    {
+      "word": "omit",
+      "ipa": "/əˈmɪt/",
+      "pos": "v.",
+      "root": "mit = send",
+      "affix": "o- = away; -mit = send",
+      "syn": "leave out, exclude, skip",
+      "near": "omit vs. exclude",
+      "phrase": "omit from, omit to",
+      "ex": "Don't omit any details.（不要遗漏任何细节。）"
+    },
+    {
+      "word": "ongoing",
+      "ipa": "/ˈɒnɡəʊɪŋ/",
+      "pos": "adj.",
+      "root": "on + going",
+      "affix": "-",
+      "syn": "continuing, current, continual",
+      "near": "ongoing vs. continuing",
+      "phrase": "ongoing process, ongoing debate",
+      "ex": "The investigation is ongoing.（调查仍在进行中。）"
+    },
+    {
+      "word": "opposition",
+      "ipa": "/ˌɒpəˈzɪʃn/",
+      "pos": "n.",
+      "root": "pos = put",
+      "affix": "op- = against; -pos = put; -ition = n",
+      "syn": "resistance, objection, contrast",
+      "near": "opposition vs. resistance",
+      "phrase": "in opposition, face opposition",
+      "ex": "The plan met strong opposition.（计划遭到强烈反对。）"
+    },
+    {
+      "word": "obscure",
+      "ipa": "/əbˈskjʊə(r)/",
+      "pos": "adj./v.",
+      "root": "scur = cover",
+      "affix": "ob- = over; -scur = cover",
+      "syn": "unclear, hidden, vague",
+      "near": "obscure vs. vague",
+      "phrase": "obscure meaning, obscure detail",
+      "ex": "The point is rather obscure.（这点相当晦涩。）"
+    },
+    {
+      "word": "paradox",
+      "ipa": "/ˈpærədɒks/",
+      "pos": "n.",
+      "root": "dox = opinion",
+      "affix": "para- = beyond; -dox = opinion",
+      "syn": "contradiction, anomaly, puzzle",
+      "near": "paradox vs. contradiction",
+      "phrase": "apparent paradox, paradox that",
+      "ex": "It's a paradox worth exploring.（这是个值得探究的悖论。）"
+    },
+    {
+      "word": "perceive",
+      "ipa": "/pəˈsiːv/",
+      "pos": "v.",
+      "root": "cept = take",
+      "affix": "per- = through; -ceive = take",
+      "syn": "sense, understand, notice",
+      "near": "perceive vs. conceive",
+      "phrase": "perceive as, perceive that",
+      "ex": "Voters perceived him as honest.（选民认为他诚实。）"
+    },
+    {
+      "word": "phenomenon",
+      "ipa": "/fəˈnɒmɪnən/",
+      "pos": "n.",
+      "root": "phen = show",
+      "affix": "phen- = show; -omenon = n",
+      "syn": "occurrence, event, fact",
+      "near": "phenomenon vs. occurrence",
+      "phrase": "natural phenomenon, social phenomenon",
+      "ex": "Globalization is a complex phenomenon.（全球化是复杂现象。）"
+    },
+    {
+      "word": "precise",
+      "ipa": "/prɪˈsaɪs/",
+      "pos": "adj.",
+      "root": "cis = cut",
+      "affix": "pre- = before; -cis = cut; -e = adj",
+      "syn": "exact, accurate, specific",
+      "near": "precise vs. exact",
+      "phrase": "precise meaning, to be precise",
+      "ex": "Give me a precise figure.（给我一个准确的数字。）"
+    },
+    {
+      "word": "preclude",
+      "ipa": "/prɪˈkluːd/",
+      "pos": "v.",
+      "root": "clud = shut",
+      "affix": "pre- = before; -clud = shut",
+      "syn": "prevent, rule out, exclude",
+      "near": "preclude vs. prevent",
+      "phrase": "preclude the possibility, preclude from",
+      "ex": "His age precludes the job.（他的年龄使其无法胜任该工作。）"
+    },
+    {
+      "word": "predominant",
+      "ipa": "/prɪˈdɒmɪnənt/",
+      "pos": "adj.",
+      "root": "domin = rule",
+      "affix": "pre- = before; -domin = rule; -ant = adj",
+      "syn": "dominant, prevailing, main",
+      "near": "predominant vs. dominant",
+      "phrase": "predominant feature, predominant view",
+      "ex": "The predominant view is optimistic.（主流观点乐观。）"
+    },
+    {
+      "word": "prosper",
+      "ipa": "/ˈprɒspə(r)/",
+      "pos": "v.",
+      "root": "sper = hope",
+      "affix": "pro- = forward; -sper = hope",
+      "syn": "thrive, flourish, succeed",
+      "near": "prosper vs. thrive",
+      "phrase": "prosper from, prosper in",
+      "ex": "The region prospered under trade.（该地区因贸易而繁荣。）"
+    },
+    {
+      "word": "pursue",
+      "ipa": "/pəˈsjuː/",
+      "pos": "v.",
+      "root": "su = follow",
+      "affix": "pur- = forth; -su = follow",
+      "syn": "follow, chase, seek",
+      "near": "pursue vs. chase",
+      "phrase": "pursue a goal, pursue a career",
+      "ex": "She pursued a career in medicine.（她从事医学职业。）"
+    },
+    {
+      "word": "premise",
+      "ipa": "/ˈpremɪs/",
+      "pos": "n.",
+      "root": "mis = send",
+      "affix": "pre- = before; -mis = send; -e = n",
+      "syn": "assumption, basis, proposition",
+      "near": "premise vs. assumption",
+      "phrase": "on the premise, false premise",
+      "ex": "The plan rests on a false premise.（计划建立在错误前提上。）"
+    },
+    {
+      "word": "qualify",
+      "ipa": "/ˈkwɒlɪfaɪ/",
+      "pos": "v.",
+      "root": "qual = quality",
+      "affix": "qual- = quality; -ify = make",
+      "syn": "certify, entitle, fit",
+      "near": "qualify vs. entitle",
+      "phrase": "qualify for, qualify as",
+      "ex": "He qualified as a doctor.（他取得了医生资格。）"
+    },
+    {
+      "word": "quote",
+      "ipa": "/kwəʊt/",
+      "pos": "v.",
+      "root": "-",
+      "affix": "-",
+      "syn": "cite, repeat, excerpt",
+      "near": "quote vs. cite",
+      "phrase": "quote from, quote a price",
+      "ex": "She quoted a famous line.（她引用了一句名言。）"
+    },
+    {
+      "word": "quest",
+      "ipa": "/kwest/",
+      "pos": "n./v.",
+      "root": "quaer = seek",
+      "affix": "ques- = seek; -t = n",
+      "syn": "search, pursuit, mission",
+      "near": "quest vs. search",
+      "phrase": "in quest of, quest for",
+      "ex": "They went in quest of truth.（他们探寻真相。）"
+    },
+    {
+      "word": "quantitative",
+      "ipa": "/ˈkwɒntɪtətɪv/",
+      "pos": "adj.",
+      "root": "quant = how much",
+      "affix": "quant- = amount; -itative = adj",
+      "syn": "measurable, numerical, statistical",
+      "near": "quantitative vs. qualitative",
+      "phrase": "quantitative analysis, quantitative data",
+      "ex": "We need quantitative evidence.（我们需要量化证据。）"
+    },
+    {
+      "word": "radical",
+      "ipa": "/ˈrædɪkl/",
+      "pos": "adj.",
+      "root": "rad = root",
+      "affix": "rad- = root; -ical = adj",
+      "syn": "extreme, fundamental, drastic",
+      "near": "radical vs. drastic",
+      "phrase": "radical change, radical reform",
+      "ex": "The plan needs radical reform.（计划需要彻底改革。）"
+    },
+    {
+      "word": "rationale",
+      "ipa": "/ˌræʃəˈnɑːl/",
+      "pos": "n.",
+      "root": "rat = reason",
+      "affix": "rat- = reason; -ionale = n",
+      "syn": "reason, logic, basis",
+      "near": "rationale vs. reason",
+      "phrase": "the rationale for, clear rationale",
+      "ex": "What is the rationale behind it?（其背后的逻辑是什么？）"
+    },
+    {
+      "word": "realistic",
+      "ipa": "/ˌriːəˈlɪstɪk/",
+      "pos": "adj.",
+      "root": "real + ist + ic",
+      "affix": "-",
+      "syn": "practical, sensible, feasible",
+      "near": "realistic vs. practical",
+      "phrase": "realistic goal, realistic view",
+      "ex": "Set a realistic deadline.（设定现实可行的期限。）"
+    },
+    {
+      "word": "reconcile",
+      "ipa": "/ˈrekənsaɪl/",
+      "pos": "v.",
+      "root": "cil = bring",
+      "affix": "re- = again; con- = together; -cil = bring",
+      "syn": "resolve, settle, harmonize",
+      "near": "reconcile vs. resolve",
+      "phrase": "reconcile with, reconcile differences",
+      "ex": "They reconciled their differences.（他们化解了分歧。）"
+    },
+    {
+      "word": "reform",
+      "ipa": "/rɪˈfɔːm/",
+      "pos": "v./n.",
+      "root": "form = shape",
+      "affix": "re- = again; -form = shape",
+      "syn": "improve, amend, change",
+      "near": "reform vs. amend",
+      "phrase": "reform the system, land reform",
+      "ex": "They reformed the education system.（他们改革了教育体系。）"
+    },
+    {
+      "word": "regulate",
+      "ipa": "/ˈreɡjuleɪt/",
+      "pos": "v.",
+      "root": "reg = rule",
+      "affix": "reg- = rule; -ulate = v",
+      "syn": "control, govern, manage",
+      "near": "regulate vs. control",
+      "phrase": "regulate the market, strictly regulated",
+      "ex": "The industry is tightly regulated.（该行业受到严格监管。）"
+    },
+    {
+      "word": "reveal",
+      "ipa": "/rɪˈviːl/",
+      "pos": "v.",
+      "root": "vel = veil",
+      "affix": "re- = back; -veal = veil",
+      "syn": "disclose, show, uncover",
+      "near": "reveal vs. disclose",
+      "phrase": "reveal that, reveal a secret",
+      "ex": "The data revealed a clear trend.（数据揭示了一种趋势。）"
+    },
+    {
+      "word": "robust",
+      "ipa": "/rəʊˈbʌst/",
+      "pos": "adj.",
+      "root": "rob = strength",
+      "affix": "rob- = strength; -ust = adj",
+      "syn": "strong, sturdy, vigorous",
+      "near": "robust vs. strong",
+      "phrase": "robust economy, robust evidence",
+      "ex": "The economy remains robust.（经济保持强劲。）"
+    },
+    {
+      "word": "retain",
+      "ipa": "/rɪˈteɪn/",
+      "pos": "v.",
+      "root": "ten = hold",
+      "affix": "re- = back; -tain = hold",
+      "syn": "keep, hold, maintain",
+      "near": "retain vs. keep",
+      "phrase": "retain staff, retain control",
+      "ex": "The firm retained its market lead.（公司保持了市场领先地位。）"
+    },
+    {
+      "word": "scarce",
+      "ipa": "/skeəs/",
+      "pos": "adj.",
+      "root": "-",
+      "affix": "-",
+      "syn": "rare, limited, insufficient",
+      "near": "scarce vs. rare",
+      "phrase": "scarce resource, grow scarce",
+      "ex": "Water is scarce in deserts.（沙漠中水很稀少。）"
+    },
+    {
+      "word": "scrutiny",
+      "ipa": "/ˈskruːtəni/",
+      "pos": "n.",
+      "root": "scrut = examine",
+      "affix": "scrut- = examine; -iny = n",
+      "syn": "examination, inspection, review",
+      "near": "scrutiny vs. inspection",
+      "phrase": "under scrutiny, close scrutiny",
+      "ex": "The deal is under scrutiny.（该交易正受审查。）"
+    },
+    {
+      "word": "significant",
+      "ipa": "/sɪɡˈnɪfɪkənt/",
+      "pos": "adj.",
+      "root": "sign = mark",
+      "affix": "sign- = mark; -ificant = adj",
+      "syn": "important, notable, meaningful",
+      "near": "significant vs. important",
+      "phrase": "significant impact, statistically significant",
+      "ex": "There was a significant drop in sales.（销售额出现了显著下降。）"
+    },
+    {
+      "word": "sole",
+      "ipa": "/səʊl/",
+      "pos": "adj.",
+      "root": "sol = alone",
+      "affix": "sol- = alone; -e = adj",
+      "syn": "only, single, exclusive",
+      "near": "sole vs. only",
+      "phrase": "sole owner, sole responsibility",
+      "ex": "He is the sole heir to the estate.（他是遗产的唯一继承人。）"
+    },
+    {
+      "word": "sophisticated",
+      "ipa": "/səˈfɪstɪkeɪtɪd/",
+      "pos": "adj.",
+      "root": "soph = wise",
+      "affix": "soph- = wise; -istic = adj; -ated = v",
+      "syn": "advanced, complex, refined",
+      "near": "sophisticated vs. advanced",
+      "phrase": "sophisticated technology, sophisticated user",
+      "ex": "It's a highly sophisticated system.（这是个高度精密的系统。）"
+    },
+    {
+      "word": "stable",
+      "ipa": "/ˈsteɪbl/",
+      "pos": "adj.",
+      "root": "st = stand",
+      "affix": "st- = stand; -able = adj",
+      "syn": "steady, firm, secure",
+      "near": "stable vs. steady",
+      "phrase": "stable economy, remain stable",
+      "ex": "Prices remained stable all year.（价格全年保持稳定。）"
+    },
+    {
+      "word": "subsidy",
+      "ipa": "/ˈsʌbsədi/",
+      "pos": "n.",
+      "root": "sid = sit",
+      "affix": "sub- = under; -sid = sit; -y = n",
+      "syn": "grant, aid, support",
+      "near": "subsidy vs. grant",
+      "phrase": "government subsidy, agricultural subsidy",
+      "ex": "Farmers receive a generous subsidy.（农民获得丰厚补贴。）"
+    },
+    {
+      "word": "sustain",
+      "ipa": "/səˈsteɪn/",
+      "pos": "v.",
+      "root": "ten = hold",
+      "affix": "sus- = up; -tain = hold",
+      "syn": "support, maintain, endure",
+      "near": "sustain vs. support",
+      "phrase": "sustain growth, sustain damage",
+      "ex": "The land cannot sustain more people.（土地养不起更多人了。）"
+    },
+    {
+      "word": "spontaneous",
+      "ipa": "/spɒnˈteɪniəs/",
+      "pos": "adj.",
+      "root": "spond = promise",
+      "affix": "spon- = free; -taneous = adj",
+      "syn": "natural, impulsive, unplanned",
+      "near": "spontaneous vs. natural",
+      "phrase": "spontaneous decision, spontaneous reaction",
+      "ex": "The applause was entirely spontaneous.（掌声是自发的。）"
+    },
+    {
+      "word": "tangible",
+      "ipa": "/ˈtændʒəbl/",
+      "pos": "adj.",
+      "root": "tang = touch",
+      "affix": "tang- = touch; -ible = able",
+      "syn": "concrete, real, visible",
+      "near": "tangible vs. concrete",
+      "phrase": "tangible benefit, tangible result",
+      "ex": "The economic gains are tangible.（经济收益是实实在在的。）"
+    },
+    {
+      "word": "tedious",
+      "ipa": "/ˈtiːdiəs/",
+      "pos": "adj.",
+      "root": "ted = weary",
+      "affix": "ted- = weary; -ious = adj",
+      "syn": "boring, dull, tiresome",
+      "near": "tedious vs. boring",
+      "phrase": "tedious task, tedious work",
+      "ex": "The meeting was long and tedious.（会议冗长乏味。）"
+    },
+    {
+      "word": "threshold",
+      "ipa": "/ˈθreʃhəʊld/",
+      "pos": "n.",
+      "root": "-",
+      "affix": "-",
+      "syn": "brink, edge, limit",
+      "near": "threshold vs. brink",
+      "phrase": "on the threshold, exceed a threshold",
+      "ex": "We are on the threshold of change.（我们正处于变革前夜。）"
+    },
+    {
+      "word": "transmit",
+      "ipa": "/trænzˈmɪt/",
+      "pos": "v.",
+      "root": "mit = send",
+      "affix": "trans- = across; -mit = send",
+      "syn": "send, convey, broadcast",
+      "near": "transmit vs. convey",
+      "phrase": "transmit data, transmit a disease",
+      "ex": "The virus transmits through the air.（病毒通过空气传播。）"
+    },
+    {
+      "word": "trigger",
+      "ipa": "/ˈtrɪɡə(r)/",
+      "pos": "v.",
+      "root": "-",
+      "affix": "-",
+      "syn": "cause, spark, initiate",
+      "near": "trigger vs. cause",
+      "phrase": "trigger a reaction, trigger debate",
+      "ex": "The news triggered a heated debate.（消息引发了激烈争论。）"
+    },
+    {
+      "word": "turbulent",
+      "ipa": "/ˈtɜːbjələnt/",
+      "pos": "adj.",
+      "root": "turb = disturb",
+      "affix": "turb- = disturb; -ulent = adj",
+      "syn": "chaotic, stormy, unstable",
+      "near": "turbulent vs. chaotic",
+      "phrase": "turbulent times, turbulent sea",
+      "ex": "The market remains turbulent.（市场动荡不安。）"
+    },
+    {
+      "word": "tuition",
+      "ipa": "/tjuˈɪʃn/",
+      "pos": "n.",
+      "root": "tuit = guard",
+      "affix": "tuit- = protect; -ion = n",
+      "syn": "fee, instruction, teaching",
+      "near": "tuition vs. fee",
+      "phrase": "pay tuition, tuition fee",
+      "ex": "Tuition has risen sharply this year.（学费今年大幅上涨。）"
+    },
+    {
+      "word": "tolerate",
+      "ipa": "/ˈtɒləreɪt/",
+      "pos": "v.",
+      "root": "toler = bear",
+      "affix": "toler- = bear; -ate = v",
+      "syn": "bear, accept, endure",
+      "near": "tolerate vs. endure",
+      "phrase": "tolerate pain, cannot tolerate",
+      "ex": "I can't tolerate loud noise.（我无法忍受嘈杂声。）"
+    },
+    {
+      "word": "transient",
+      "ipa": "/ˈtrænziənt/",
+      "pos": "adj.",
+      "root": "trans = across",
+      "affix": "trans- = across; -ient = adj",
+      "syn": "temporary, brief, passing",
+      "near": "transient vs. temporary",
+      "phrase": "transient phase, transient population",
+      "ex": "His fame proved transient.（他的名声转瞬即逝。）"
+    },
+    {
+      "word": "ultimate",
+      "ipa": "/ˈʌltɪmət/",
+      "pos": "adj.",
+      "root": "ultim = last",
+      "affix": "ultim- = last; -ate = adj",
+      "syn": "final, eventual, supreme",
+      "near": "ultimate vs. final",
+      "phrase": "ultimate goal, ultimate cause",
+      "ex": "Our ultimate aim is world peace.（我们的最终目标是世界和平。）"
+    },
+    {
+      "word": "undermine",
+      "ipa": "/ˌʌndəˈmaɪn/",
+      "pos": "v.",
+      "root": "under + mine",
+      "affix": "under- = below; -mine = dig",
+      "syn": "weaken, damage, sabotage",
+      "near": "undermine vs. weaken",
+      "phrase": "undermine confidence, undermine trust",
+      "ex": "The scandal undermined public trust.（丑闻削弱了公众信任。）"
+    },
+    {
+      "word": "unify",
+      "ipa": "/ˈjuːnɪfaɪ/",
+      "pos": "v.",
+      "root": "un = one",
+      "affix": "un- = one; -ify = make",
+      "syn": "unite, merge, combine",
+      "near": "unify vs. unite",
+      "phrase": "unify the country, unify standards",
+      "ex": "The policy unified the regions.（政策统一了各地区。）"
+    },
+    {
+      "word": "unique",
+      "ipa": "/juˈniːk/",
+      "pos": "adj.",
+      "root": "un = one",
+      "affix": "un- = one; -ique = adj",
+      "syn": "distinct, sole, special",
+      "near": "unique vs. distinct",
+      "phrase": "unique to, unique feature",
+      "ex": "Each fingerprint is unique.（每个指纹都独一无二。）"
+    },
+    {
+      "word": "universal",
+      "ipa": "/ˌjuːnɪˈvɜːsl/",
+      "pos": "adj.",
+      "root": "un = one",
+      "affix": "un- = one; -vers = turn; -al = adj",
+      "syn": "global, general, widespread",
+      "near": "universal vs. global",
+      "phrase": "universal access, universal truth",
+      "ex": "Education should be universal.（教育应当普及。）"
+    },
+    {
+      "word": "urgent",
+      "ipa": "/ˈɜːdʒənt/",
+      "pos": "adj.",
+      "root": "urg = press",
+      "affix": "urg- = press; -ent = adj",
+      "syn": "pressing, critical, immediate",
+      "near": "urgent vs. critical",
+      "phrase": "urgent need, urgent matter",
+      "ex": "This calls for urgent action.（这需要紧急行动。）"
+    },
+    {
+      "word": "utilize",
+      "ipa": "/ˈjuːtəlaɪz/",
+      "pos": "v.",
+      "root": "ut = use",
+      "affix": "ut- = use; -ize = v",
+      "syn": "use, employ, apply",
+      "near": "utilize vs. use",
+      "phrase": "utilize resources, make use of",
+      "ex": "We utilized the data fully.（我们充分利用了数据。）"
+    },
+    {
+      "word": "undergo",
+      "ipa": "/ˌʌndəˈɡəʊ/",
+      "pos": "v.",
+      "root": "under + go",
+      "affix": "-",
+      "syn": "experience, suffer, endure",
+      "near": "undergo vs. experience",
+      "phrase": "undergo changes, undergo surgery",
+      "ex": "The system underwent major reform.（系统经历了重大改革。）"
+    },
+    {
+      "word": "vague",
+      "ipa": "/veɪɡ/",
+      "pos": "adj.",
+      "root": "vag = wander",
+      "affix": "vag- = wander; -ue = adj",
+      "syn": "unclear, ambiguous, fuzzy",
+      "near": "vague vs. ambiguous",
+      "phrase": "vague idea, vague about",
+      "ex": "His answer was deliberately vague.（他的回答含糊其辞。）"
+    },
+    {
+      "word": "valid",
+      "ipa": "/ˈvælɪd/",
+      "pos": "adj.",
+      "root": "val = strong",
+      "affix": "val- = strong; -id = adj",
+      "syn": "sound, legitimate, logical",
+      "near": "valid vs. sound",
+      "phrase": "valid reason, valid argument",
+      "ex": "The ticket is still valid.（票仍然有效。）"
+    },
+    {
+      "word": "vanish",
+      "ipa": "/ˈvænɪʃ/",
+      "pos": "v.",
+      "root": "van = empty",
+      "affix": "van- = empty; -ish = v",
+      "syn": "disappear, fade, depart",
+      "near": "vanish vs. disappear",
+      "phrase": "vanish into, vanish from",
+      "ex": "The mist vanished at noon.（雾在中午散去。）"
+    },
+    {
+      "word": "vary",
+      "ipa": "/ˈveəri/",
+      "pos": "v.",
+      "root": "vari = change",
+      "affix": "var- = change; -y = v",
+      "syn": "differ, alter, change",
+      "near": "vary vs. differ",
+      "phrase": "vary from, vary in",
+      "ex": "Prices vary by season.（价格随季节变化。）"
+    },
+    {
+      "word": "verify",
+      "ipa": "/ˈverɪfaɪ/",
+      "pos": "v.",
+      "root": "ver = true",
+      "affix": "ver- = true; -ify = make",
+      "syn": "confirm, check, prove",
+      "near": "verify vs. confirm",
+      "phrase": "verify the data, verify identity",
+      "ex": "Please verify your email address.（请验证你的邮箱地址。）"
+    },
+    {
+      "word": "vital",
+      "ipa": "/ˈvaɪtl/",
+      "pos": "adj.",
+      "root": "vit = life",
+      "affix": "vit- = life; -al = adj",
+      "syn": "essential, crucial, critical",
+      "near": "vital vs. essential",
+      "phrase": "vital to, vital role",
+      "ex": "Sleep is vital to good health.（睡眠对健康至关重要。）"
+    },
+    {
+      "word": "vulnerable",
+      "ipa": "/ˈvʌlnərəbl/",
+      "pos": "adj.",
+      "root": "vuln = wound",
+      "affix": "vuln- = wound; -able = adj",
+      "syn": "exposed, weak, defenseless",
+      "near": "vulnerable vs. exposed",
+      "phrase": "vulnerable to, feel vulnerable",
+      "ex": "Children are vulnerable to abuse.（儿童易受虐待伤害。）"
+    },
+    {
+      "word": "versatile",
+      "ipa": "/ˈvɜːsətaɪl/",
+      "pos": "adj.",
+      "root": "vers = turn",
+      "affix": "vers- = turn; -atile = adj",
+      "syn": "adaptable, flexible, all-around",
+      "near": "versatile vs. flexible",
+      "phrase": "versatile actor, versatile tool",
+      "ex": "She is a versatile team player.（她是一名全能型队员。）"
+    },
+    {
+      "word": "warrant",
+      "ipa": "/ˈwɒrənt/",
+      "pos": "v.",
+      "root": "war = guard",
+      "affix": "war- = protect; -ant = v",
+      "syn": "justify, deserve, guarantee",
+      "near": "warrant vs. justify",
+      "phrase": "warrant attention, warrant a look",
+      "ex": "The claim warrants further investigation.（该说法值得进一步调查。）"
+    },
+    {
+      "word": "witness",
+      "ipa": "/ˈwɪtnəs/",
+      "pos": "v./n.",
+      "root": "wit = know",
+      "affix": "wit- = know; -ness = n",
+      "syn": "observe, see, attest",
+      "near": "witness vs. observe",
+      "phrase": "witness to, bear witness",
+      "ex": "He witnessed the accident firsthand.（他目击了事故全过程。）"
+    },
+    {
+      "word": "withdraw",
+      "ipa": "/wɪðˈdrɔː/",
+      "pos": "v.",
+      "root": "draw",
+      "affix": "with- = back; -draw = pull",
+      "syn": "remove, retreat, pull out",
+      "near": "withdraw vs. retreat",
+      "phrase": "withdraw from, withdraw money",
+      "ex": "He withdrew his complaint.（他撤回了投诉。）"
+    },
+    {
+      "word": "worthwhile",
+      "ipa": "/ˌwɜːθˈwaɪl/",
+      "pos": "adj.",
+      "root": "worth + while",
+      "affix": "-",
+      "syn": "valuable, rewarding, useful",
+      "near": "worthwhile vs. rewarding",
+      "phrase": "worthwhile effort, worthwhile to",
+      "ex": "It's a worthwhile cause to support.（这是一项值得支持的事业。）"
+    },
+    {
+      "word": "widespread",
+      "ipa": "/ˈwaɪdspred/",
+      "pos": "adj.",
+      "root": "wide + spread",
+      "affix": "-",
+      "syn": "common, prevalent, extensive",
+      "near": "widespread vs. common",
+      "phrase": "widespread support, widespread use",
+      "ex": "The practice is now widespread.（这种做法现在很普遍。）"
+    },
+    {
+      "word": "xerox",
+      "ipa": "/ˈzɪərɒks/",
+      "pos": "v.",
+      "root": "-",
+      "affix": "-",
+      "syn": "copy, duplicate, photocopy",
+      "near": "xerox vs. copy",
+      "phrase": "xerox a document, xerox the form",
+      "ex": "Please xerox this report for me.（请把这份报告帮我复印一下。）"
+    },
+    {
+      "word": "xenophobic",
+      "ipa": "/ˌzenəˈfəʊbɪk/",
+      "pos": "adj.",
+      "root": "xeno = foreign",
+      "affix": "xeno- = foreign; -phob = fear; -ic = adj",
+      "syn": "anti-foreign, prejudiced, intolerant",
+      "near": "xenophobic vs. racist",
+      "phrase": "xenophobic attitude, xenophobic views",
+      "ex": "Xenophobic rhetoric has been rising.（排外言论有所增多。）"
+    },
+    {
+      "word": "yield",
+      "ipa": "/jiːld/",
+      "pos": "v.",
+      "root": "-",
+      "affix": "-",
+      "syn": "produce, bear, surrender",
+      "near": "yield vs. produce",
+      "phrase": "yield to, yield a profit",
+      "ex": "The investment yielded high returns.（投资获得了高回报。）"
+    },
+    {
+      "word": "yearn",
+      "ipa": "/jɜːn/",
+      "pos": "v.",
+      "root": "-",
+      "affix": "-",
+      "syn": "long, crave, desire",
+      "near": "yearn vs. long",
+      "phrase": "yearn for, yearn to",
+      "ex": "She yearned for true freedom.（她渴望真正的自由。）"
+    },
+    {
+      "word": "yummy",
+      "ipa": "/ˈjʌmi/",
+      "pos": "adj.",
+      "root": "-",
+      "affix": "-",
+      "syn": "delicious, tasty, scrumptious",
+      "near": "yummy vs. delicious",
+      "phrase": "yummy food, look yummy",
+      "ex": "This homemade cake is so yummy.（这块自制蛋糕真好吃。）"
+    },
+    {
+      "word": "zeal",
+      "ipa": "/ziːl/",
+      "pos": "n.",
+      "root": "zel = eager",
+      "affix": "zel- = eager",
+      "syn": "enthusiasm, fervor, passion",
+      "near": "zeal vs. enthusiasm",
+      "phrase": "with zeal, religious zeal",
+      "ex": "He works with great zeal.（他工作热情高涨。）"
+    },
+    {
+      "word": "zone",
+      "ipa": "/zəʊn/",
+      "pos": "n.",
+      "root": "zon = belt",
+      "affix": "zon- = belt; -e = n",
+      "syn": "area, region, district",
+      "near": "zone vs. area",
+      "phrase": "war zone, comfort zone",
+      "ex": "Stay out of the danger zone.（远离危险区域。）"
+    },
+    {
+      "word": "zoom",
+      "ipa": "/zuːm/",
+      "pos": "v.",
+      "root": "-",
+      "affix": "-",
+      "syn": "speed, rush, dart",
+      "near": "zoom vs. rush",
+      "phrase": "zoom in, zoom past",
+      "ex": "The car zoomed past us.（汽车从我们身边飞驰而过。）"
+    },
+    {
+      "word": "zenith",
+      "ipa": "/ˈzenɪθ/",
+      "pos": "n.",
+      "root": "-",
+      "affix": "-",
+      "syn": "peak, summit, height",
+      "near": "zenith vs. peak",
+      "phrase": "at the zenith, reach the zenith",
+      "ex": "His career reached its zenith.（他的事业达到了顶峰。）"
+    },
+    {
+      "word": "attribute",
+      "ipa": "/əˈtrɪbjuːt/",
+      "pos": "v.",
+      "root": "trib = give",
+      "affix": "at- = to; -trib = give; -ute = v",
+      "syn": "ascribe, assign, credit",
+      "near": "attribute vs. contribute",
+      "phrase": "attribute to, attribute success to",
+      "ex": "She attributes her success to luck.（她把成功归因于运气。）"
+    },
+    {
+      "word": "consensus",
+      "ipa": "/kənˈsensəs/",
+      "pos": "n.",
+      "root": "sens = feel",
+      "affix": "con- = together; -sens = feel; -us = n",
+      "syn": "agreement, accord, unity",
+      "near": "consensus vs. agreement",
+      "phrase": "reach a consensus, broad consensus",
+      "ex": "They reached a consensus at last.（他们最终达成了共识。）"
+    },
+    {
+      "word": "distribute",
+      "ipa": "/dɪˈstrɪbjuːt/",
+      "pos": "v.",
+      "root": "trib = give",
+      "affix": "dis- = apart; -trib = give; -ute = v",
+      "syn": "allocate, spread, share",
+      "near": "distribute vs. allocate",
+      "phrase": "distribute wealth, distribute evenly",
+      "ex": "Aid was distributed to the victims.（援助物资分发给灾民。）"
+    },
+    {
+      "word": "evaluate",
+      "ipa": "/ɪˈvæljueɪt/",
+      "pos": "v.",
+      "root": "val = worth",
+      "affix": "e- = out; -valu = worth; -ate = v",
+      "syn": "assess, judge, appraise",
+      "near": "evaluate vs. assess",
+      "phrase": "evaluate performance, evaluate the risk",
+      "ex": "We evaluated the proposal carefully.（我们仔细评估了该提案。）"
+    },
+    {
+      "word": "however",
+      "ipa": "/haʊˈevə(r)/",
+      "pos": "adv.",
+      "root": "how + ever",
+      "affix": "-",
+      "syn": "nevertheless, yet, though",
+      "near": "however vs. nevertheless",
+      "phrase": "however much, however possible",
+      "ex": "It's costly; however, it's worth it.（它很贵，不过物有所值。）"
+    },
+    {
+      "word": "integrate",
+      "ipa": "/ˈɪntɪɡreɪt/",
+      "pos": "v.",
+      "root": "integr = whole",
+      "affix": "in- = into; -tegr = whole; -ate = v",
+      "syn": "combine, merge, unify",
+      "near": "integrate vs. merge",
+      "phrase": "integrate into, integrate with",
+      "ex": "Immigrants integrated into society.（移民融入了社会。）"
+    },
+    {
+      "word": "negotiate",
+      "ipa": "/nɪˈɡəʊʃieɪt/",
+      "pos": "v.",
+      "root": "negot = business",
+      "affix": "neg- = not; -ot = leisure; -iate = v",
+      "syn": "bargain, discuss, mediate",
+      "near": "negotiate vs. bargain",
+      "phrase": "negotiate a deal, negotiate with",
+      "ex": "They negotiated a new contract.（他们谈成了一新合同。）"
+    }
+  ],
+  "long": [
+    {
+      "en": "Although the internet has brought unprecedented convenience, it has also given rise to concerns that personal privacy is being eroded at an alarming rate.",
+      "zh": "尽管互联网带来了前所未有的便利，但它也引发了人们对个人隐私正以惊人速度被侵蚀的担忧。",
+      "structure": "主句为'it has given rise to concerns'主谓宾结构；although引导让步状语从句前置；that引导同位语从句，解释concerns的具体内容。",
+      "idiom": "'give rise to'为正式书面搭配，意为'引起、导致'；'at an alarming rate'是地道表达，表示'以惊人的速度'，常用于描述负面趋势。"
+    },
+    {
+      "en": "It is the government's responsibility, rather than that of private companies, to ensure that essential services are accessible to every citizen regardless of income.",
+      "zh": "确保每位公民无论收入高低都能获得基本服务，是政府的责任，而非私营公司的责任。",
+      "structure": "主干为'It is the government's responsibility to ensure...'；it作形式主语，真正主语是不定式；rather than表对比；that引导ensure的宾语从句；regardless of为让步状语。",
+      "idiom": "'rather than'表'而不是'，用于对比取舍；'regardless of'为固定短语，意为'不论、不管'，后接名词或动名词。"
+    },
+    {
+      "en": "Had the committee taken the potential risks into account earlier, the catastrophic failure of the project could have been avoided.",
+      "zh": "如果委员会早些将潜在风险考虑在内，本可以避免项目的灾难性失败。",
+      "structure": "本句为虚拟语气的倒装结构，'Had the committee taken...'相当于'If the committee had taken...'；主句为'could have been avoided'的被动虚拟语气。",
+      "idiom": "'take sth into account'意为'把某事考虑在内'，是学术写作高频搭配；'catastrophic failure'为地道名词短语，指'灾难性失败'。"
+    },
+    {
+      "en": "The extent to which automation will displace human labor depends largely on how swiftly workers can acquire new skills suited to a digital economy.",
+      "zh": "自动化在多大程度上取代人力，很大程度上取决于劳动者多快能掌握适应数字经济的新技能。",
+      "structure": "主句主干为'The extent depends on...'；to which引导定语从句修饰extent；depends on后接how引导的宾语从句；suited to作后置定语修饰skills。",
+      "idiom": "'to which'与extent搭配构成'在……程度上'；'suited to'意为'适合、适应'，是过去分词作定语的地道用法。"
+    },
+    {
+      "en": "Not only does climate change threaten biodiversity, but it also exacerbates existing inequalities between developed and developing nations.",
+      "zh": "气候变化不仅威胁生物多样性，还加剧了发达国家与发展中国家之间原有的不平等。",
+      "structure": "'Not only'置于句首引起部分倒装，助动词does提前；but also连接并列分句；between...and...作inequalities的后置定语。",
+      "idiom": "'not only...but also...'为并列递进结构，注意前句需倒装；'exacerbate inequalities'是外刊常用搭配，意为'加剧不平等'。"
+    },
+    {
+      "en": "What makes the new policy controversial is that it appears to prioritize economic growth over environmental protection, a trade-off many voters reject.",
+      "zh": "这项新政策引发争议的原因在于，它似乎把经济增长置于环境保护之上，而许多选民拒绝这种取舍。",
+      "structure": "主干为'What makes...is that...'主语从句+表语从句；that引导表语从句；a trade-off...为同位语，修饰前文取舍；many voters reject为省略that的定语从句。",
+      "idiom": "'prioritize A over B'是写作核心搭配，意为'把A置于B之上'；'trade-off'指'权衡、取舍'，为雅思高频词。"
+    },
+    {
+      "en": "Given that renewable energy costs have fallen dramatically, there is little justification for delaying the transition away from fossil fuels.",
+      "zh": "鉴于可再生能源成本已大幅下降，拖延向非化石能源转型已无多少正当理由。",
+      "structure": "'Given that'引导原因状语从句；主句为'there is little justification for...'存在句；for delaying...为介词短语作定语修饰justification。",
+      "idiom": "'given that'意为'鉴于、考虑到'，引出已知前提；'there is little justification for'为正式表达，相当于'没有理由'。"
+    },
+    {
+      "en": "The researcher argued that, far from being a neutral tool, artificial intelligence inevitably reflects the biases embedded in the data it is trained on.",
+      "zh": "研究者认为，人工智能远非中立工具，它不可避免地反映了训练数据本身所携带的偏见。",
+      "structure": "主句为'The researcher argued that...'；that引导宾语从句，其中'far from being...'为插入状语；embedded in...为过去分词作后置定语；it is trained on为定语从句修饰data。",
+      "idiom": "'far from being'意为'远非、绝不是'，用于强调反驳；'be trained on'是机器学习地道搭配，指'基于……训练'。"
+    },
+    {
+      "en": "Unless stricter regulations are introduced, the gap between the wealthy and the poor is likely to widen beyond the point of social stability.",
+      "zh": "除非出台更严格的监管，否则贫富差距很可能扩大到危及社会稳定的程度。",
+      "structure": "'Unless'引导条件状语从句（相当于if not），用被动语态；主句为'the gap is likely to widen'；beyond...为介词短语作程度状语。",
+      "idiom": "'unless'意为'除非'，引导否定条件；'beyond the point of'为地道表达，意为'超出……的限度'。"
+    },
+    {
+      "en": "What the report fails to mention is the fact that short-term profits often come at the expense of long-term sustainability.",
+      "zh": "报告未提及的事实是，短期利润往往是以长期可持续性为代价换来的。",
+      "structure": "主干为'What...is the fact that...'主语从句+表语（含同位语从句）；that引导同位语从句解释fact；at the expense of为介词短语作状语。",
+      "idiom": "'come at the expense of'是高频搭配，意为'以……为代价'；'short-term/long-term'对比结构常见于议论文。"
+    },
+    {
+      "en": "So compelling was the evidence presented by the scientists that the committee had no choice but to revise its initial assessment.",
+      "zh": "科学家提交的证据如此有说服力，以至于委员会别无选择，只能修正其最初评估。",
+      "structure": "'So+形容词'置于句首引起主句部分倒装（was the evidence）；that引导结果状语从句；presented by...为过去分词作后置定语。",
+      "idiom": "'so...that...'表'如此……以至于'；倒装时so短语必须前置；'have no choice but to'意为'别无选择只能'。"
+    },
+    {
+      "en": "While some economists maintain that inflation is transitory, others contend that it has become deeply entrenched in the labor market.",
+      "zh": "一些经济学家认为通胀是暂时的，另一些人则主张它已在劳动力市场根深蒂固。",
+      "structure": "'While'引导让步状语从句（意为'尽管'）；主句为'others contend that...'；that引导 contend的宾语从句，其中entrenched为过去分词作表语。",
+      "idiom": "'while'在此表对比/让步而非时间；'deeply entrenched'为地道搭配，指'根深蒂固'；'maintain/contend'为议论文替换动词。"
+    },
+    {
+      "en": "The museum, which was founded in the nineteenth century, has recently launched a digital archive aimed at making its collection accessible worldwide.",
+      "zh": "这座成立于19世纪的博物馆，最近推出了一个数字档案库，旨在让全球都能访问其藏品。",
+      "structure": "主干为'The museum has launched a digital archive'；which引导非限制性定语从句修饰museum；aimed at...为过去分词作后置定语修饰archive。",
+      "idiom": "'aimed at doing'意为'旨在、目的是'；'make sth accessible'为'使……可获得'的固定搭配。"
+    },
+    {
+      "en": "It was not until the leak was made public that the corporation acknowledged the severity of the environmental damage it had caused.",
+      "zh": "直到泄漏事件被公开，这家公司才承认其造成的环境破坏之严重。",
+      "structure": "'It was not until...that...'为强调句型，强调时间状语；that从句中the corporation作主语，acknowledged带宾语从句；it had caused为定语从句修饰damage。",
+      "idiom": "'not until'置于强调句，主句谓语不倒装但从句通常倒装；'acknowledge the severity'为正式书面搭配。"
+    },
+    {
+      "en": "By shifting the tax burden from labor to carbon emissions, policymakers hope to simultaneously boost employment and curb greenhouse gases.",
+      "zh": "通过将税负从劳动力转向碳排放，决策者希望同时促进就业并遏制温室气体。",
+      "structure": "'By shifting...'为介词短语作方式状语，内含from...to...对比；主句为'policymakers hope to...'；to boost and curb为并列不定式作hope的宾语。",
+      "idiom": "'shift A from B to C'意为'把A从B转向C'；'curb greenhouse gases'是环境类写作高频搭配，指'遏制温室气体'。"
+    },
+    {
+      "en": "The assumption that economic growth automatically translates into improved well-being has been called into question by recent studies.",
+      "zh": "经济增长会自动转化为民生改善这一假设，已受到近期研究的质疑。",
+      "structure": "主干为'The assumption has been called into question'被动语态；that引导同位语从句解释assumption；by recent studies为动作发出者。",
+      "idiom": "'translate into'意为'转化为'；'call sth into question'为正式搭配，指'对……提出质疑'。"
+    },
+    {
+      "en": "Despite mounting evidence of its harms, the industry continues to lobby against legislation designed to protect vulnerable consumers.",
+      "zh": "尽管其危害的证据不断增加，该行业仍在游说反对旨在保护弱势消费者的立法。",
+      "structure": "'Despite mounting evidence...'为介词短语作让步状语；主句为'the industry continues to lobby against legislation'；designed to...为过去分词作后置定语。",
+      "idiom": "'mounting evidence'指'与日俱增的证据'；'lobby against'为政治/商业地道动词，意为'游说反对'。"
+    },
+    {
+      "en": "Crucial to the success of any reform is the willingness of ordinary citizens to accept short-term sacrifices for long-term gains.",
+      "zh": "任何改革成功的关键在于普通民众愿为长期收益接受短期牺牲的意愿。",
+      "structure": "本句为完全倒装，表语'Crucial to the success'前置，主语为'the willingness...'；to accept...为不定式作后置定语修饰willingness。",
+      "idiom": "'crucial to'意为'对……至关重要'；'short-term sacrifices for long-term gains'是议论文经典对比表述。"
+    },
+    {
+      "en": "Because the two studies adopted fundamentally different methodologies, their seemingly contradictory findings may in fact be complementary.",
+      "zh": "由于两项研究采用了根本不同的方法，它们看似矛盾的结论实际上可能互补。",
+      "structure": "'Because'引导原因状语从句；主句为'their findings may be complementary'；seemingly contradictory为前置修饰；in fact为副词插入语。",
+      "idiom": "'adopt methodologies'意为'采用方法'；'seemingly contradictory'指'看似矛盾'；'in fact'表'实际上'转折。"
+    },
+    {
+      "en": "The city's decision to ban single-use plastics, though initially unpopular, has proven effective in reducing ocean pollution.",
+      "zh": "该市禁用一次性塑料的决定，尽管起初不受欢迎，但已被证明能有效减少海洋污染。",
+      "structure": "主干为'The city's decision has proven effective'；to ban...为不定式作后置定语；though initially unpopular为省略be的让步状语。",
+      "idiom": "'single-use plastics'指'一次性塑料'；'prove effective in'为'被证明在……有效'的正式表达。"
+    },
+    {
+      "en": "Were it not for the subsidies provided by the state, many clean-energy startups would have struggled to survive their first year.",
+      "zh": "若非国家提供补贴，许多清洁能源初创企业恐怕难以撑过第一年。",
+      "structure": "'Were it not for...'为虚拟条件句的倒装（相当于If it were not for）；主句为'would have struggled'对过去的虚拟；provided by...作后置定语。",
+      "idiom": "'were it not for'意为'若不是因为'；'struggle to survive'为'艰难生存'的常用搭配。"
+    },
+    {
+      "en": "What distinguishes the most resilient societies is not the absence of crises but their capacity to learn and adapt in their aftermath.",
+      "zh": "最具韧性社会的不同之处，不在于没有危机，而在于其在危机后学习与适应的能力。",
+      "structure": "主干为'What distinguishes...is not...but...'主语从句+并列表语；absence of crises与capacity to...形成对比；in their aftermath为时间状语。",
+      "idiom": "'not A but B'表'不是A而是B'；'in the aftermath'意为'在……之后（尤指灾难后）'。"
+    },
+    {
+      "en": "The professor's lecture, delivered entirely without notes, left the audience with a profound appreciation of the subject's complexity.",
+      "zh": "教授完全脱稿的演讲，让听众深刻体会到该学科的复杂性。",
+      "structure": "主干为'The professor's lecture left the audience with...'；delivered entirely without notes为过去分词作后置定语；with a profound appreciation为伴随状语。",
+      "idiom": "'without notes'指'脱稿、无讲稿'；'leave sb with'意为'给某人留下（某种感受）'。"
+    },
+    {
+      "en": "If the trend continues, experts warn, the number of species at risk of extinction could triple within the next few decades.",
+      "zh": "专家警告，若趋势持续，面临灭绝风险的物种数量在未来几十年内可能增至三倍。",
+      "structure": "主句为'experts warn'插入语；if引导条件状语从句；the number...could triple为主句，at risk of...作后置定语，within...为时间状语。",
+      "idiom": "'at risk of'意为'面临……风险'；'within the next few decades'是预测类写作常见时间表述。"
+    },
+    {
+      "en": "Under no circumstances should personal data be sold to third parties without the explicit consent of the individual concerned.",
+      "zh": "在任何情况下，都不得在未获相关个人明确同意的情况下将其数据出售给第三方。",
+      "structure": "'Under no circumstances'否定状语前置引起主句部分倒装（should personal data be sold）；without...为条件状语；concerned为后置定语修饰individual。",
+      "idiom": "'under no circumstances'意为'在任何情况下都不'，必须引起倒装；'explicit consent'指'明确同意'。"
+    },
+    {
+      "en": "The fact that remote work has reshaped employee expectations presents a challenge that traditional managers are ill-equipped to handle.",
+      "zh": "远程办公重塑了员工预期这一事实，给传统管理者带来了他们难以应对的挑战。",
+      "structure": "主干为'The fact presents a challenge'；that引导同位语从句解释fact；that traditional managers...为定语从句修饰challenge；ill-equipped为表语。",
+      "idiom": "'ill-equipped to'意为'不具备……能力/条件'；'reshape expectations'指'重塑预期'。"
+    },
+    {
+      "en": "Only by investing heavily in public transport can cities hope to alleviate the congestion that plagues their centers during rush hour.",
+      "zh": "只有大力投资公共交通，城市才有希望缓解高峰时段困扰市中心的拥堵。",
+      "structure": "'Only by...'介词短语前置引起主句部分倒装（can cities hope）；to alleviate...为目的状语；that plagues...为定语从句修饰congestion。",
+      "idiom": "'only by'前置须倒装；'rush hour'指'高峰时段'；'plague'作动词意为'困扰、折磨'。"
+    },
+    {
+      "en": "Whereas previous generations prized job security, younger workers increasingly value flexibility and a sense of purpose.",
+      "zh": "相比前几代人看重工作稳定，年轻劳动者越来越重视灵活性与目标感。",
+      "structure": "'Whereas'引导对比状语从句；主句为'younger workers value flexibility and a sense of purpose'；increasingly为副词修饰value。",
+      "idiom": "'prize'作动词意为'珍视'；'a sense of purpose'指'目标感、意义感'，为口语与写作通用表达。"
+    },
+    {
+      "en": "The committee recommended that the proposal be implemented immediately, irrespective of the objections raised by minority stakeholders.",
+      "zh": "委员会建议立即实施方案，而不管少数股东提出的反对意见。",
+      "structure": "主句为'The committee recommended that...'；that从句用虚拟语气（be implemented，省略should）；irrespective of...为让步状语；raised by...作后置定语。",
+      "idiom": "'recommend that...be'用虚拟语气；'irrespective of'意为'不论、不顾'；'minority stakeholders'指'少数股东'。"
+    },
+    {
+      "en": "Having exhausted all conventional treatments, the patient opted for an experimental therapy that had shown promise in early trials.",
+      "zh": "在用尽所有常规疗法后，该患者选择了在早期试验中显现前景的实验性治疗。",
+      "structure": "'Having exhausted...'为现在分词完成式作时间状语；主句为'the patient opted for a therapy'；that had shown...为定语从句修饰therapy。",
+      "idiom": "'exhaust all options/treatments'意为'用尽所有办法'；'show promise'指'显现前景/希望'。"
+    },
+    {
+      "en": "The degree to which a society protects its weakest members is, many would argue, the truest measure of its civilization.",
+      "zh": "一个社会保护其最弱势成员的程度，许多人会认为，是其文明最真实的衡量标准。",
+      "structure": "主干为'The degree is the truest measure'；to which引导定语从句修饰degree；many would argue为插入语；of its civilization为后置定语。",
+      "idiom": "'the truest measure of'意为'……最真实的衡量'；插入语'many would argue'增强论述客观性。"
+    },
+    {
+      "en": "Notwithstanding the optimistic forecasts, consumer confidence remains fragile, owing largely to persistent uncertainty in the job market.",
+      "zh": "尽管预测乐观，消费者信心依旧脆弱，主要源于就业市场持续的不确定性。",
+      "structure": "'Notwithstanding the forecasts'为介词短语作让步状语；主句为'consumer confidence remains fragile'；owing largely to...为原因状语。",
+      "idiom": "'notwithstanding'为正式'尽管'；'owing to'表原因；'consumer confidence'是经济类高频术语。"
+    },
+    {
+      "en": "The documentary illustrates how, in the absence of strict oversight, corporate greed can precipitate a cascade of failures.",
+      "zh": "这部纪录片展示了，在缺乏严格监管的情况下，企业贪婪如何引发一连串的失败。",
+      "structure": "主干为'The documentary illustrates how...'；how引导宾语从句，其中'in the absence of...'为条件状语；precipitate带宾语a cascade of failures。",
+      "idiom": "'in the absence of'意为'在缺乏……的情况下'；'precipitate'作动词指'引发、加速（坏事）'；'a cascade of'指'一连串'。"
+    },
+    {
+      "en": "Should the negotiations fail to produce an agreement, both sides stand to lose far more than they might anticipate.",
+      "zh": "若谈判未能达成协议，双方损失将远超预期。",
+      "structure": "'Should the negotiations fail...'为虚拟条件句倒装（相当于If...should fail）；主句为'both sides stand to lose'；more than...为比较状语。",
+      "idiom": "'should'虚拟倒装；'stand to lose/gain'意为'很可能损失/获益'，为地道商务表达。"
+    },
+    {
+      "en": "The novelist's ability to weave historical facts into a deeply personal narrative accounts for the book's enduring appeal.",
+      "zh": "这位小说家把历史事实编织进深切个人叙事的能力，解释了该书持久的吸引力。",
+      "structure": "主干为'The novelist's ability accounts for the book's appeal'；to weave...为不定式作后置定语修饰ability；into a narrative为状语。",
+      "idiom": "'weave A into B'意为'把A融入B'；'account for'指'解释、说明……的原因'。"
+    },
+    {
+      "en": "Granted that technology can boost productivity, it by no means guarantees a fairer distribution of its benefits.",
+      "zh": "就算技术能提升生产力，它也绝不代表其收益能更公平地分配。",
+      "structure": "'Granted that'引导让步状语从句；主句为'it guarantees a distribution'；by no means为否定状语；of its benefits为后置定语。",
+      "idiom": "'granted that'意为'即便、承认'；'by no means'表'绝不'，置于谓语前引起部分强调。"
+    },
+    {
+      "en": "The more reliant a community becomes on a single industry, the more vulnerable it is to external economic shocks.",
+      "zh": "一个社区对单一产业依赖越深，它受外部经济冲击的影响就越脆弱。",
+      "structure": "'The more..., the more...'为比较级特殊句型；主句为'it is vulnerable to shocks'；reliant on...作表语；to external shocks为状语。",
+      "idiom": "'the more...the more...'表'越……越……'；'vulnerable to shocks'指'易受冲击影响'。"
+    },
+    {
+      "en": "Critics contend that the scheme, billed as a breakthrough, merely shifts the problem elsewhere rather than resolving it.",
+      "zh": "批评者认为，这个被称作突破的方案只是把问题转移到别处，而非解决它。",
+      "structure": "主句为'Critics contend that...'；that宾语从句中the scheme作主语，billed as...为过去分词作后置定语；rather than连接对比谓语。",
+      "idiom": "'billed as'意为'被宣传为'；'shift the problem elsewhere'指'把问题转移他处'。"
+    },
+    {
+      "en": "Once the initial euphoria subsided, citizens began to grapple with the practical consequences of the sweeping reform.",
+      "zh": "最初的狂热消退后，市民开始努力应对这场全面改革的实际后果。",
+      "structure": "'Once'引导时间状语从句；主句为'citizens began to grapple with the consequences'；of the reform为后置定语。",
+      "idiom": "'once'表'一旦/……之后'；'grapple with'意为'努力应对、尽力解决'，为写作高频动词短语。"
+    },
+    {
+      "en": "The study's authors caution against interpreting the correlation as causation, noting that other variables may be at play.",
+      "zh": "该研究作者提醒不要把相关性解读为因果，并指出其他变量可能在起作用。",
+      "structure": "主干为'The authors caution against interpreting...'；as causation为宾语补足；noting that...为现在分词作伴随状语，带宾语从句。",
+      "idiom": "'caution against'意为'警告/提醒不要'；'correlation vs causation'是学术写作核心概念；'at play'指'在起作用'。"
+    },
+    {
+      "en": "Hardly had the new policy taken effect when opposition groups launched a coordinated campaign to overturn it.",
+      "zh": "新政策刚生效，反对团体就发起了一场协调一致的运动来推翻它。",
+      "structure": "'Hardly had...when...'为固定句型，主句部分倒装（had taken）；when引导时间状语从句；to overturn it为目的状语。",
+      "idiom": "'hardly...when...'意为'一……就……'且前句须倒装；'launch a campaign'指'发起运动'。"
+    },
+    {
+      "en": "What we often overlook is that technological progress, for all its benefits, tends to deepen the divide between rich and poor.",
+      "zh": "我们常忽视的是，技术进步尽管好处多多，却往往加深贫富鸿沟。",
+      "structure": "主干为'What we overlook is that...'主语从句+表语从句；that从句中for all its benefits为让步状语；tends to deepen为谓语。",
+      "idiom": "'for all its benefits'意为'尽管好处多多'；'deepen the divide'指'加深鸿沟'，为议论文地道搭配。"
+    },
+    {
+      "en": "The court ruled that the evidence, having been obtained unlawfully, must be excluded from the proceedings.",
+      "zh": "法庭裁定，该证据因系非法获取，必须从诉讼程序中排除。",
+      "structure": "主句为'The court ruled that...'；that宾语从句中the evidence作主语，having been obtained...为分词完成被动式作原因状语；must be excluded为谓语。",
+      "idiom": "'rule that'意为'裁定'；'exclude from the proceedings'指'从诉讼程序中排除'。"
+    },
+    {
+      "en": "Inasmuch as the proposal addresses inequality, it fails to tackle the structural causes that perpetuate the problem.",
+      "zh": "尽管该提案触及了不平等，它却未能解决使问题长期存在的结构性根源。",
+      "structure": "'Inasmuch as'引导让步/原因状语从句；主句为'it fails to tackle the causes'；that perpetuate...为定语从句修饰causes。",
+      "idiom": "'inasmuch as'为正式'尽管/由于'；'tackle the root causes'指'解决根源'；'perpetuate'意为'使长期存在'。"
+    },
+    {
+      "en": "The mayor's pledge to revitalize the downtown area was met with skepticism by residents who had heard similar promises before.",
+      "zh": "市长重振市中心的承诺，遭到了曾听过类似承诺的居民们的怀疑。",
+      "structure": "主干为'The mayor's pledge was met with skepticism'；to revitalize...为不定式作后置定语；by residents为动作发出者；who引导定语从句。",
+      "idiom": "'be met with skepticism'意为'遭到怀疑'；'revitalize the downtown'指'重振市中心'。"
+    },
+    {
+      "en": "Seldom do voters reward politicians who deliver inconvenient truths rather than the reassuring slogans they prefer.",
+      "zh": "选民很少奖赏那些说出不便真相、而非他们偏爱的宽慰性口号的政客。",
+      "structure": "'Seldom'否定副词前置引起主句部分倒装（do voters reward）；who引导定语从句修饰politicians；rather than连接对比宾语。",
+      "idiom": "'seldom'前置须倒装；'inconvenient truths'指'令人不安的真相'；'reassuring slogans'指'宽慰性口号'。"
+    },
+    {
+      "en": "The rapid urbanization of the region, coupled with weak planning, has placed enormous strain on already overstretched infrastructure.",
+      "zh": "该地区快速的城市化，加上规划薄弱，已给本就超负荷的基础设施带来巨大压力。",
+      "structure": "主干为'The rapid urbanization has placed strain on infrastructure'；coupled with...为插入定语；already overstretched为前置修饰infrastructure。",
+      "idiom": "'coupled with'意为'加上、连同'；'place strain on'指'给……施压'；'overstretched'意为'超负荷的'。"
+    },
+    {
+      "en": "That the two nations reached a tentative accord after years of hostility is a testament to the power of patient diplomacy.",
+      "zh": "两国在多年敌对后达成初步协议，证明了耐心外交的力量。",
+      "structure": "主干为'That...is a testament to...'主语从句+系表；that引导主语从句；after years of hostility为时间状语；to the power为后置定语。",
+      "idiom": "'tentative accord'指'初步协议'；'a testament to'意为'……的证明'；'patient diplomacy'指'耐心外交'。"
+    },
+    {
+      "en": "No sooner had the results been announced than the stock price plummeted, wiping out billions in market value.",
+      "zh": "结果一公布，股价便暴跌，蒸发了数十亿市值。",
+      "structure": "'No sooner had...than...'固定句型，主句倒装（had been announced）；than引导从句；wiping out...为现在分词作结果状语。",
+      "idiom": "'no sooner...than...'意为'一……就……'且前句倒装；'wipe out'指'抹去、蒸发（价值）'。"
+    },
+    {
+      "en": "The teacher emphasized that rote memorization, though useful for basics, pales in comparison with genuine understanding.",
+      "zh": "老师强调，死记硬背尽管对基础有用，但与真正的理解相比便黯然失色。",
+      "structure": "主句为'The teacher emphasized that...'；that从句中rote memorization作主语，though useful...为让步状语；pales in comparison with为谓语。",
+      "idiom": "'rote memorization'指'死记硬背'；'pale in comparison with'意为'与……相比相形见绌'。"
+    },
+    {
+      "en": "Whether the new trade agreement will benefit smaller economies depends on concessions that larger partners are willing to make.",
+      "zh": "新贸易协定能否惠及较小经济体，取决于较大伙伴愿作出的让步。",
+      "structure": "主干为'Whether...depends on concessions'主语从句+谓语；that larger partners...为定语从句修饰concessions；are willing to make为谓语。",
+      "idiom": "'whether...depends on'表'是否……取决于'；'make concessions'指'作出让步'。"
+    },
+    {
+      "en": "Burdened by debt and shrinking revenues, the institution was forced to curtail programs that served marginalized communities.",
+      "zh": "受债务与收入萎缩所累，该机构被迫削减服务于边缘群体的项目。",
+      "structure": "'Burdened by...'为过去分词作原因状语；主句为'the institution was forced to curtail programs'；that served...为定语从句修饰programs。",
+      "idiom": "'burdened by'意为'受……拖累'；'curtail programs'指'削减项目'；'marginalized communities'指'边缘群体'。"
+    },
+    {
+      "en": "The historian argued that the revolution, far from being spontaneous, had been decades in the making.",
+      "zh": "这位历史学家认为，那场革命远非自发，而是历经数十年酝酿而成。",
+      "structure": "主句为'The historian argued that...'；that从句中the revolution作主语，far from being spontaneous为插入状语；had been decades in the making为谓语。",
+      "idiom": "'far from being'意为'远非'；'be decades in the making'指'历经数十年酝酿/形成'。"
+    },
+    {
+      "en": "Little did the explorers realize that the cave they had entered was the habitat of a species thought to be extinct.",
+      "zh": "探险者们几乎没意识到，他们进入的洞穴是一种被认为已灭绝物种的栖息地。",
+      "structure": "'Little'否定副词前置引起主句部分倒装（did the explorers realize）；that引导宾语从句；they had entered为定语从句；thought to be extinct为后置定语。",
+      "idiom": "'little did sb realize'意为'某人几乎没意识到'须倒装；'thought to be'指'被认为'。"
+    },
+    {
+      "en": "The policy's success hinges on whether local authorities can enforce it consistently across a fragmented administrative landscape.",
+      "zh": "该政策的成败，取决于地方当局能否在碎片化的行政格局中 consistently 地执行它。",
+      "structure": "主干为'The policy's success hinges on whether...'；whether引导介词宾语从句；can enforce it为谓语；across...为状语。",
+      "idiom": "'hinge on'意为'取决于、关键在于'；'enforce consistently'指'持续一致地执行'；'fragmented landscape'指'碎片化格局'。"
+    },
+    {
+      "en": "Although the medication alleviated her symptoms, it did little to address the underlying condition that caused them.",
+      "zh": "尽管药物缓解了她的症状，却几乎未触及引发症状的根本病因。",
+      "structure": "'Although'引导让步状语从句；主句为'it did little to address the condition'；that caused them为定语从句修饰condition。",
+      "idiom": "'alleviate symptoms'指'缓解症状'；'address the underlying condition'意为'解决根本病因'；'do little to'指'几乎无助于'。"
+    },
+    {
+      "en": "So abundant were the natural resources that early settlers scarcely imagined the depletion that future generations would face.",
+      "zh": "自然资源如此丰富，以至于早期定居者几乎无法想象后代将面临的枯竭。",
+      "structure": "'So abundant'前置引起主句部分倒装（were the resources）；that引导结果状语从句；that future generations...为定语从句修饰depletion。",
+      "idiom": "'so...that...'倒装结构；'scarcely imagine'指'几乎无法想象'；'depletion'意为'枯竭'。"
+    },
+    {
+      "en": "The diplomat's remark, carefully calibrated to avoid offense, was nonetheless interpreted as a thinly veiled threat.",
+      "zh": "这位外交官的言论经过精心措辞以避免冒犯，却仍被解读为近乎露骨的威胁。",
+      "structure": "主干为'The diplomat's remark was interpreted as a threat'；carefully calibrated...为过去分词作后置定语；nonetheless为副词表转折。",
+      "idiom": "'carefully calibrated'指'精心措辞/拿捏的'；'thinly veiled'意为'近乎露骨的、掩饰薄弱的'。"
+    },
+    {
+      "en": "Provided that funding is secured, the research team intends to expand the trial to a far larger and more diverse cohort.",
+      "zh": "假若能获得资金，研究团队打算把试验扩展到规模更大、更具多样性的人群。",
+      "structure": "'Provided that'引导条件状语从句（被动）；主句为'the team intends to expand the trial'；to a cohort为状语；larger and more diverse为前置修饰。",
+      "idiom": "'provided that'意为'假若、只要'；'a diverse cohort'指'多样化人群/队列'，常见于科研。"
+    },
+    {
+      "en": "The artist's later works, in stark contrast to her earlier pieces, reveal a preoccupation with mortality and transcendence.",
+      "zh": "这位艺术家后期的作品与早期作品形成鲜明对比，流露出对死亡与超越的执着。",
+      "structure": "主干为'The artist's later works reveal a preoccupation'；in stark contrast to...为插入状语；with mortality...为后置定语修饰preoccupation。",
+      "idiom": "'in stark contrast to'意为'与……形成鲜明对比'；'a preoccupation with'指'对……的执着/关注'。"
+    },
+    {
+      "en": "It is precisely because the costs are hidden that consumers continue to behave in ways that undermine their own interests.",
+      "zh": "恰恰因为成本被隐藏，消费者才继续以损害自身利益的方式行事。",
+      "structure": "'It is...that...'强调句型，强调原因状语从句'because the costs are hidden'；主句为'consumers continue to behave'；that undermine...为定语从句。",
+      "idiom": "'it is precisely because...that'强调'恰恰因为'；'undermine one's interests'指'损害某人利益'。"
+    },
+    {
+      "en": "The committee's reluctance to act stems from a fear that any intervention might backfire and inflame tensions further.",
+      "zh": "委员会不愿行动，源于一种担忧：任何干预都可能适得其反，进一步激化矛盾。",
+      "structure": "主干为'The committee's reluctance stems from a fear'；to act为不定式定语；that any intervention...为同位语从句解释fear；might backfire and inflame为并列谓语。",
+      "idiom": "'stem from'意为'源于'；'backfire'指'适得其反、事与愿违'；'inflame tensions'指'激化矛盾'。"
+    },
+    {
+      "en": "Rarely has a single invention so profoundly reshaped daily life as the smartphone, for better and for worse.",
+      "zh": "鲜有一项发明能像智能手机那样深刻地重塑日常生活，无论好坏。",
+      "structure": "'Rarely'否定副词前置引起主句部分倒装（has a single invention reshaped）；as引导比较；for better and for worse为评注状语。",
+      "idiom": "'rarely'前置须倒装；'for better and for worse'意为'无论好坏、利弊兼具'。"
+    },
+    {
+      "en": "The government's pledge to phase out coal, while ambitious, collides with the reality of an economy still hooked on cheap power.",
+      "zh": "政府逐步淘汰煤炭的承诺虽有雄心，却与一个仍依赖廉价电力的经济现实相冲突。",
+      "structure": "主干为'The government's pledge collides with the reality'；to phase out coal为定语；while ambitious为让步状语；still hooked on...为后置定语修饰economy。",
+      "idiom": "'phase out'意为'逐步淘汰'；'collide with'指'与……冲突'；'hooked on'意为'沉迷/依赖'。"
+    },
+    {
+      "en": "What the data unequivocally show is that inequality has widened not in spite of growth but because of the way it is distributed.",
+      "zh": "数据明确显示的是，不平等的扩大并非不顾增长，而是源于增长成果的分配方式。",
+      "structure": "主干为'What the data show is that...'主语从句+表语从句；that从句中not...but...连接对比原因；because of...为原因状语。",
+      "idiom": "'unequivocally show'指'明确显示'；'not in spite of but because of'为高级对比结构。"
+    },
+    {
+      "en": "The refugees, having fled violence at home, found themselves caught between a hostile border and an indifferent world.",
+      "zh": "这些难民逃离了故土的暴力，却发现自己夹在充满敌意的边境与冷漠的世界之间。",
+      "structure": "'The refugees found themselves caught'为主句；having fled...为分词完成式作原因状语；between...and...为状语。",
+      "idiom": "'flee violence'指'逃离暴力'；'find oneself caught between'意为'发现自己夹在……之间'；'indifferent'指'冷漠的'。"
+    },
+    {
+      "en": "Just as the printing press transformed the Renaissance, so digital networks are reshaping the contours of modern society.",
+      "zh": "正如印刷机改变了文艺复兴，数字网络也正在重塑现代社会的轮廓。",
+      "structure": "'Just as...so...'为类比结构；前半句为比较状语从句，主句'so digital networks are reshaping...'中so表'同样'。",
+      "idiom": "'just as A, so B'意为'正如A，B也……'；'reshape the contours'指'重塑轮廓/形态'。"
+    },
+    {
+      "en": "The court's decision, widely expected yet nonetheless consequential, set a precedent that will constrain future regulators.",
+      "zh": "这一广受预期却仍具影响的法院裁决，树立了一个将约束未来监管者的先例。",
+      "structure": "主干为'The court's decision set a precedent'；widely expected yet nonetheless consequential为并列后置定语；that will constrain...为定语从句。",
+      "idiom": "'set a precedent'意为'树立先例'；'constrain regulators'指'约束监管者'；'consequential'指'重要的、有影响的'。"
+    },
+    {
+      "en": "Were the current trajectory to continue, the planet would breach several ecological thresholds within a single generation.",
+      "zh": "若当前趋势延续，地球将在一代人的时间内突破若干生态临界值。",
+      "structure": "'Were the trajectory to continue'为虚拟条件句倒装（相当于If...were to continue）；主句为'the planet would breach thresholds'；within...为时间状语。",
+      "idiom": "'were...to continue'表对将来的虚拟；'breach thresholds'指'突破临界值'，生态类写作高频。"
+    },
+    {
+      "en": "The novelist spares no detail in depicting a society so stratified that mobility between classes has become all but impossible.",
+      "zh": "小说家不遗巨细地描绘了一个阶层如此固化、阶层间流动几乎不可能社会。",
+      "structure": "主干为'The novelist spares no detail in depicting a society'；so stratified that...为结果状语从句；between classes为定语；all but impossible为表语。",
+      "idiom": "'spare no detail'意为'不遗余力地详述'；'all but impossible'指'几乎不可能'；'stratified'意为'分层的'。"
+    },
+    {
+      "en": "Not every innovation lives up to the hype, and many promising technologies fail to deliver on their early promise.",
+      "zh": "并非每项创新都名副其实，许多前景看好的技术未能兑现其早期的承诺。",
+      "structure": "'Not every...'否定主语；and连接并列句；many technologies作后句主语；fail to deliver on...为谓语；their early promise为宾语。",
+      "idiom": "'live up to the hype'意为'名副其实/不负盛名'；'deliver on a promise'指'兑现承诺'。"
+    },
+    {
+      "en": "The summit's modest outcomes, though hailed as progress, fall short of the ambitious targets set at its outset.",
+      "zh": "峰会有限的成果虽被誉为进步，却未达其初始设定的宏大目标。",
+      "structure": "主干为'The summit's outcomes fall short of the targets'；though hailed as...为让步状语；set at its outset为过去分词作后置定语。",
+      "idiom": "'fall short of'意为'未达到、辜负'；'hailed as'指'被誉为'；'at its outset'指'在其开始时'。"
+    },
+    {
+      "en": "Because trust, once lost, is exceedingly difficult to regain, institutions must guard it as their most precious asset.",
+      "zh": "因为信任一旦失去便极难挽回，机构必须将其当作最宝贵的资产来守护。",
+      "structure": "'Because'引导原因状语从句，once lost为插入省略状语；主句为'institutions must guard it'；as their most precious asset为状语。",
+      "idiom": "'once lost'省略结构意为'一旦失去'；'guard as'指'把……当作……来守护'。"
+    },
+    {
+      "en": "The engineer's elegant solution, simple in principle yet formidable in execution, resolved a problem deemed unsolvable.",
+      "zh": "这位工程师优雅的方案，原理简单却执行艰难，解决了一个被认为无解的问题。",
+      "structure": "主干为'The engineer's solution resolved a problem'；simple in principle yet formidable in execution为并列后置定语；deemed unsolvable为后置定语修饰problem。",
+      "idiom": "'elegant solution'指'巧妙/优雅的方案'；'deemed unsolvable'意为'被认为无解的'。"
+    },
+    {
+      "en": "Only when citizens hold their leaders accountable can democracy fulfill the promise of serving the common good.",
+      "zh": "只有当公民让领导者承担责任，民主才能兑现服务公共利益的承诺。",
+      "structure": "'Only when'引导时间状语从句前置，主句部分倒装（can democracy fulfill）；of serving...为后置定语修饰promise。",
+      "idiom": "'hold sb accountable'意为'让某人负责'；'the common good'指'公共利益'，政治写作核心词。"
+    },
+    {
+      "en": "The film's power lies less in its plot than in its unflinching portrayal of ordinary lives under extraordinary strain.",
+      "zh": "这部电影的力量不在于剧情，而在于它对非凡压力下普通人生活的坦诚刻画。",
+      "structure": "主干为'The film's power lies less in...than in...'；less...than...表对比；under extraordinary strain为后置定语修饰lives。",
+      "idiom": "'lie less in A than in B'意为'不在于A而在于B'；'unflinching portrayal'指'坦诚/无畏的刻画'。"
+    },
+    {
+      "en": "Such is the pace of change that entire industries can vanish before regulators have time to comprehend their impact.",
+      "zh": "变化之快，以至于整个行业可能在监管者来得及理解其影响之前就消失。",
+      "structure": "'Such is the pace...'为such前置引起的倒装（主语pace后置）；that引导结果状语从句；before...为时间状语从句。",
+      "idiom": "'such is...that'表'如此……以至于'且主句倒装；'vanish before sb has time to'指'在某人来不及……前消失'。"
+    },
+    {
+      "en": "The proposal, if implemented as written, would concentrate power in ways that unsettled even its own supporters.",
+      "zh": "该提案若按文本实施，将以令其支持者自身都不安的方式集中权力。",
+      "structure": "主句为'The proposal would concentrate power'；if implemented as written为省略状语从句；in ways that...为状语，带定语从句。",
+      "idiom": "'as written'意为'按文本/字面'；'concentrate power'指'集中权力'；'unsettled'作动词指'使不安'。"
+    },
+    {
+      "en": "What ultimately swayed the voters was not the candidate's charisma but the concrete policies she put forward.",
+      "zh": "最终打动选民的，不是候选人的个人魅力，而是她提出的具体政策。",
+      "structure": "主干为'What swayed the voters was not...but...'主语从句+并列表语；she put forward为定语从句修饰policies。",
+      "idiom": "'sway the voters'意为'打动/影响选民'；'put forward policies'指'提出政策'。"
+    },
+    {
+      "en": "The region's recovery, fragile and uneven, remains hostage to forces beyond the control of its own policymakers.",
+      "zh": "该地区脆弱而不均衡的复苏，仍受制于其决策者无法掌控的力量。",
+      "structure": "主干为'The region's recovery remains hostage to forces'；fragile and uneven为后置定语；beyond the control...为后置定语修饰forces。",
+      "idiom": "'remain hostage to'意为'受制于、受……裹挟'；'beyond one's control'指'超出某人掌控'。"
+    }
+  ],
+  "speak": [
+    {
+      "en": "I really need a cup of coffee to kick off my morning.",
+      "zh": "我真的需要一杯咖啡来开启早晨。"
+    },
+    {
+      "en": "Could you please repeat that sentence a little more slowly?",
+      "zh": "你能把那句话再说慢一点吗？"
+    },
+    {
+      "en": "I'm planning to apply for a master's program next year.",
+      "zh": "我打算明年申请硕士项目。"
+    },
+    {
+      "en": "Let's grab a bite to eat before the meeting starts.",
+      "zh": "会议开始前我们随便吃点东西吧。"
+    },
+    {
+      "en": "The weather forecast says it might rain later today.",
+      "zh": "天气预报说今天晚些时候可能会下雨。"
+    },
+    {
+      "en": "I totally agree with what you just said about teamwork.",
+      "zh": "我完全同意你刚才关于团队合作的看法。"
+    },
+    {
+      "en": "Could you recommend a good local restaurant around here?",
+      "zh": "你能推荐一家这附近不错的本地餐厅吗？"
+    },
+    {
+      "en": "I was stuck in traffic for nearly an hour this morning.",
+      "zh": "今天早上我堵车堵了快一个小时。"
+    },
+    {
+      "en": "Learning a language takes patience and daily practice.",
+      "zh": "学一门语言需要耐心和每日练习。"
+    },
+    {
+      "en": "We should wrap up this discussion and make a decision.",
+      "zh": "我们该结束讨论并做个决定了。"
+    },
+    {
+      "en": "My laptop suddenly crashed and I lost all my work.",
+      "zh": "我的笔记本突然死机，工作全丢了。"
+    },
+    {
+      "en": "Let me check my schedule and get back to you soon.",
+      "zh": "我查一下日程，马上回复你。"
+    },
+    {
+      "en": "Traveling abroad really broadens your horizon, I think.",
+      "zh": "我觉得出国旅行真的能开阔眼界。"
+    },
+    {
+      "en": "I'm not a big fan of horror movies, to be honest.",
+      "zh": "说实话，我不太喜欢恐怖片。"
+    },
+    {
+      "en": "Could we reschedule the interview to next Tuesday?",
+      "zh": "我们能把面试改到下周二吗？"
+    },
+    {
+      "en": "The new policy will take effect from the first of July.",
+      "zh": "新政策将从七月一日起生效。"
+    },
+    {
+      "en": "I'd rather stay in and read than go out tonight.",
+      "zh": "今晚我宁愿待在家里看书也不想出门。"
+    },
+    {
+      "en": "She gave a brilliant presentation at the conference yesterday.",
+      "zh": "她昨天在会上做了场精彩的展示。"
+    },
+    {
+      "en": "Let's keep in touch after you move to the new city.",
+      "zh": "你搬去新城市后我们保持联系吧。"
+    },
+    {
+      "en": "I'm running a bit late, so please start without me.",
+      "zh": "我要晚一点，你们先开始吧。"
+    },
+    {
+      "en": "The customer service was surprisingly helpful and polite.",
+      "zh": "客服出人意料地有帮助而且礼貌。"
+    },
+    {
+      "en": "We need to cut down on our monthly expenses somehow.",
+      "zh": "我们得想办法减少每月开支了。"
+    },
+    {
+      "en": "I find it hard to concentrate when the room is noisy.",
+      "zh": "房间吵的时候我很难集中注意力。"
+    },
+    {
+      "en": "Would you mind switching off your phone during the film?",
+      "zh": "电影期间你介意关掉手机吗？"
+    },
+    {
+      "en": "He apologized for forgetting our dinner appointment last night.",
+      "zh": "他为忘了昨晚的饭局道了歉。"
+    },
+    {
+      "en": "The view from the top of the mountain was absolutely worth it.",
+      "zh": "山顶的景色绝对值得这一趟。"
+    },
+    {
+      "en": "I usually unwind by listening to music after a long day.",
+      "zh": "漫长的一天后我通常听音乐来放松。"
+    },
+    {
+      "en": "Could you point me to the nearest subway station, please?",
+      "zh": "请问能告诉我最近的地铁站在哪吗？"
+    },
+    {
+      "en": "Our team managed to meet the deadline against all odds.",
+      "zh": "我们团队最终克服万难赶上了截止日期。"
+    },
+    {
+      "en": "I'm thinking about picking up a new hobby this summer.",
+      "zh": "我在考虑今年夏天培养个新爱好。"
+    },
+    {
+      "en": "The lecture was a bit over my head, to tell the truth.",
+      "zh": "说实话，那场讲座我有点听不懂。"
+    },
+    {
+      "en": "Let's split the bill since we ordered different things.",
+      "zh": "我们点的不一样，那就AA吧。"
+    },
+    {
+      "en": "I'm afraid I have to turn down the job offer, sorry.",
+      "zh": "抱歉，我恐怕得拒绝那份工作邀请了。"
+    },
+    {
+      "en": "Reading before bed helps me fall asleep much faster.",
+      "zh": "睡前阅读帮我更快入睡。"
+    },
+    {
+      "en": "We got lost, but a local kindly showed us the way.",
+      "zh": "我们迷路了，但一位当地人热心指了路。"
+    },
+    {
+      "en": "The project is behind schedule because of staff shortages.",
+      "zh": "由于人手不足，项目进度落后了。"
+    },
+    {
+      "en": "I can't thank you enough for all the help you gave me.",
+      "zh": "你给我的帮助我感激不尽。"
+    },
+    {
+      "en": "Let's give it a shot and see what happens, shall we?",
+      "zh": "我们试一试看看结果吧，好吗？"
+    },
+    {
+      "en": "She's been burning the candle at both ends lately.",
+      "zh": "她最近一直在过度操劳。"
+    },
+    {
+      "en": "I prefer working from home to commuting every day.",
+      "zh": "比起每天通勤，我更喜欢在家工作。"
+    },
+    {
+      "en": "The queue at the pharmacy was longer than I expected.",
+      "zh": "药房排队的人比我想的要多。"
+    },
+    {
+      "en": "Could you spare a few minutes to review my draft?",
+      "zh": "你能抽几分钟看一下我的草稿吗？"
+    },
+    {
+      "en": "I'm not convinced that the plan will actually work.",
+      "zh": "我不太相信这计划真能行得通。"
+    },
+    {
+      "en": "We should seize the opportunity before it slips away.",
+      "zh": "我们应在机会溜走前抓住它。"
+    },
+    {
+      "en": "My neighbor offered to water my plants while I'm away.",
+      "zh": "我邻居提出我不在时帮我浇花。"
+    },
+    {
+      "en": "The museum is free to enter on the first Sunday monthly.",
+      "zh": "博物馆每月第一个周日免费开放。"
+    },
+    {
+      "en": "I tend to overthink things when I'm under pressure.",
+      "zh": "压力大时我容易想太多。"
+    },
+    {
+      "en": "Let's touch base next week to review the progress.",
+      "zh": "我们下周碰一下，回顾下进展。"
+    },
+    {
+      "en": "He speaks three languages fluently and is learning a fourth.",
+      "zh": "他说三种语言都很流利，还在学第四种。"
+    },
+    {
+      "en": "I was blown away by the performance last night, honestly.",
+      "zh": "说实话，昨晚的演出让我惊艳。"
+    },
+    {
+      "en": "We'd better leave now or we'll miss the last train.",
+      "zh": "我们最好现在走，不然要错过末班车了。"
+    },
+    {
+      "en": "The app makes it easy to track your daily spending.",
+      "zh": "这个应用让你轻松记录每日开销。"
+    },
+    {
+      "en": "I'm on a tight budget this month, so no shopping.",
+      "zh": "这个月我手头紧，就不逛街了。"
+    },
+    {
+      "en": "Could you fill me in on what happened at the meeting?",
+      "zh": "你能跟我说说会上发生了什么吗？"
+    },
+    {
+      "en": "She nailed the interview and got the job on the spot.",
+      "zh": "她面试表现出色，当场就拿到了工作。"
+    },
+    {
+      "en": "I'm trying to cut back on sugar for health reasons.",
+      "zh": "为了健康我正试着少吃糖。"
+    },
+    {
+      "en": "Let's call it a day and pick up where we left off.",
+      "zh": "今天就到这，我们接着上次的地方继续。"
+    },
+    {
+      "en": "The baby kept us up all night with a terrible fever.",
+      "zh": "宝宝高烧，整晚吵得我们没睡。"
+    },
+    {
+      "en": "I'm a firm believer in learning from your own mistakes.",
+      "zh": "我坚信要从自己的错误中学习。"
+    },
+    {
+      "en": "Would you like to join us for a walk along the river?",
+      "zh": "你想和我们一起去河边散步吗？"
+    },
+    {
+      "en": "The flight was delayed, so we hung around the airport.",
+      "zh": "航班延误了，我们就在机场闲逛。"
+    },
+    {
+      "en": "I'll take the blame for the mix-up, it was my fault.",
+      "zh": "混乱的事我担责，是我的问题。"
+    },
+    {
+      "en": "We should give credit where credit is truly due.",
+      "zh": "该表扬的地方就应好好表扬。"
+    },
+    {
+      "en": "He's always the first to lend a hand when needed.",
+      "zh": "需要帮忙时他总是第一个伸出援手。"
+    },
+    {
+      "en": "I'm weighing the pros and cons before making a choice.",
+      "zh": "我在权衡利弊，然后再做选择。"
+    },
+    {
+      "en": "The café on the corner has the best croissants in town.",
+      "zh": "街角那家咖啡馆有全镇最好的可颂。"
+    },
+    {
+      "en": "Let me sleep on it and give you an answer tomorrow.",
+      "zh": "让我想想，明天给你答复。"
+    },
+    {
+      "en": "I'm knackered after the long hike up the hill.",
+      "zh": "爬完那座山我累坏了。"
+    },
+    {
+      "en": "She handled the complaint with great tact and calm.",
+      "zh": "她处理投诉时既得体又冷静。"
+    },
+    {
+      "en": "We might as well cancel the trip given the storm warning.",
+      "zh": "既然有风暴预警，我们不如取消行程。"
+    },
+    {
+      "en": "I lost track of time while I was absorbed in the book.",
+      "zh": "我看書看入迷，不知不觉忘了时间。"
+    },
+    {
+      "en": "Could you hold the lift, please? I'm on my way down.",
+      "zh": "能帮我按着电梯吗？我这就下来。"
+    },
+    {
+      "en": "The teacher encouraged us to think outside the box.",
+      "zh": "老师鼓励我们跳出思维定式。"
+    },
+    {
+      "en": "I'm not cut out for a desk job, to be perfectly honest.",
+      "zh": "坦白说，我真不适合坐办公室的工作。"
+    },
+    {
+      "en": "Let's grab a coffee and talk this through properly.",
+      "zh": "我们喝杯咖啡，好好把这事聊清楚。"
+    },
+    {
+      "en": "He brushed off the criticism and kept working quietly.",
+      "zh": "他对批评不以为意，继续默默工作。"
+    },
+    {
+      "en": "I'm saving up for a trip to Japan next spring.",
+      "zh": "我在攒钱，准备明年春天去日本。"
+    },
+    {
+      "en": "The Wi-Fi here is patchy, so the call kept dropping.",
+      "zh": "这的Wi-Fi不稳定，电话一直断。"
+    },
+    {
+      "en": "We should look on the bright side of the situation.",
+      "zh": "我们应看到情况乐观的一面。"
+    },
+    {
+      "en": "I appreciate you taking the time to explain it to me.",
+      "zh": "谢谢你抽时间给我讲解。"
+    },
+    {
+      "en": "The concert was sold out within minutes of going live.",
+      "zh": "音乐会开售几分钟就售罄了。"
+    },
+    {
+      "en": "Let's not beat around the bush and discuss the issue.",
+      "zh": "我们别拐弯抹角了，直接谈问题吧。"
+    },
+    {
+      "en": "I'm feeling a bit under the weather today, to be fair.",
+      "zh": "说实在的，我今天有点不舒服。"
+    },
+    {
+      "en": "She's the glue that holds the whole team together.",
+      "zh": "她是让整个团队凝聚在一起的核心。"
+    },
+    {
+      "en": "I'll double-check the figures before I send the report.",
+      "zh": "发报告前我会再核对一遍数据。"
+    },
+    {
+      "en": "We ended up chatting for hours without even noticing.",
+      "zh": "我们最后聊了几个小时都没察觉。"
+    },
+    {
+      "en": "Could you keep an eye on my bag while I buy a ticket?",
+      "zh": "我买票时你能帮我看下包吗？"
+    },
+    {
+      "en": "I always make a to-do list to stay on top of things.",
+      "zh": "我总列待办清单来掌控事务。"
+    },
+    {
+      "en": "The landlord agreed to fix the heater before winter.",
+      "zh": "房东同意在冬天前修好暖气。"
+    },
+    {
+      "en": "We cheered when our team scored the winning goal.",
+      "zh": "我们队进了制胜球时我们欢呼起来。"
+    }
+  ]
+}
