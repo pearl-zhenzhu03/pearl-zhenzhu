@@ -2699,7 +2699,7 @@ const PHONICS_LETTERS=[
   {letter:'Ff',sounds:[{ph:'/f/',word:'fish',example:'Fish can swim.'}]},
   {letter:'Gg',sounds:[{ph:'/g/',word:'go',example:'Go to school.'},{ph:'/dʒ/',word:'giant',example:'A giant elephant.'}]},
   {letter:'Hh',sounds:[{ph:'/h/',word:'hat',example:'Put on your hat.'}]},
-  {letter:'Ii',sounds:[{ph:'/ɪ/',ex:'sit',example:'Sit down please.'},{ph:'/aɪ/',word:'like',example:'I like ice cream.'}]},
+  {letter:'Ii',sounds:[{ph:'/ɪ/',word:'sit',example:'Sit down please.'},{ph:'/aɪ/',word:'like',example:'I like ice cream.'}]},
   {letter:'Jj',sounds:[{ph:'/dʒ/',word:'jump',example:'Jump up high!'}]},
   {letter:'Kk',sounds:[{ph:'/k/',word:'king',example:'The king is kind.'}]},
   {letter:'Ll',sounds:[{ph:'/l/',word:'lion',example:'The lion is loud.'}]},
@@ -3017,7 +3017,7 @@ function playLocal(text){
 const PH_SEG = {"iː": "audio/ipa/ipa_01.ogg", "ɪ": "audio/ipa/ipa_02.ogg", "e": "audio/ipa/ipa_03.ogg", "æ": "audio/ipa/ipa_04.ogg", "ɑː": "audio/ipa/ipa_05.ogg", "ɒ": "audio/ipa/ipa_06.ogg", "ɔː": "audio/ipa/ipa_07.ogg", "ʊ": "audio/ipa/ipa_08.ogg", "uː": "audio/ipa/ipa_09.ogg", "ʌ": "audio/ipa/ipa_10.ogg", "ɜː": "audio/ipa/ipa_11.ogg", "ə": "audio/ipa/ipa_12.ogg", "eɪ": "audio/ipa/ipa_13.mp3", "aɪ": "audio/ipa/ipa_14.mp3", "ɔɪ": "audio/ipa/ipa_15.mp3", "aʊ": "audio/ipa/ipa_16.mp3", "əʊ": "audio/ipa/ipa_17.mp3", "ɪə": "audio/ipa/ipa_18.mp3", "eə": "audio/ipa/ipa_19.mp3", "ʊə": "audio/ipa/ipa_20.mp3", "p": "audio/ipa/ipa_21.ogg", "b": "audio/ipa/ipa_22.ogg", "t": "audio/ipa/ipa_23.ogg", "d": "audio/ipa/ipa_24.ogg", "k": "audio/ipa/ipa_25.ogg", "g": "audio/ipa/ipa_26.ogg", "f": "audio/ipa/ipa_27.ogg", "v": "audio/ipa/ipa_28.ogg", "θ": "audio/ipa/ipa_29.ogg", "ð": "audio/ipa/ipa_30.ogg", "s": "audio/ipa/ipa_31.mp3", "z": "audio/ipa/ipa_32.ogg", "ʃ": "audio/ipa/ipa_33.mp3", "ʒ": "audio/ipa/ipa_34.mp3", "h": "audio/ipa/ipa_35.ogg", "tʃ": "audio/ipa/ipa_36.ogg", "dʒ": "audio/ipa/ipa_37.ogg", "m": "audio/ipa/ipa_38.ogg", "n": "audio/ipa/ipa_39.ogg", "ŋ": "audio/ipa/ipa_40.ogg", "l": "audio/ipa/ipa_41.ogg", "r": "audio/ipa/ipa_42.ogg", "w": "audio/ipa/ipa_43.ogg", "j": "audio/ipa/ipa_44.ogg", "tr": "audio/ipa/ipa_45.mp3", "dr": "audio/ipa/ipa_46.mp3", "ts": "audio/ipa/ipa_47.ogg", "dz": "audio/ipa/ipa_48.ogg"};
 
 const _phCache={};
-const APP_VER="v40";
+const APP_VER="v41";
 (function(){ try{ var b=document.createElement('div'); b.id='appVerBadge'; b.textContent='音标音频 '+APP_VER; b.style.cssText='position:fixed;left:8px;bottom:8px;z-index:9999;background:#0a6b5e;color:#fff;font:600 11px/1.4 system-ui,-apple-system,sans-serif;padding:4px 9px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.25);pointer-events:none;letter-spacing:.3px;'; document.body.appendChild(b); }catch(e){} })();
 
 function getPhBuf(key){
