@@ -3058,8 +3058,10 @@ function _audChainEn(h,text){
     if(h.isAborted()) return;
     var key=(text||'').replace(/\s+/g,' ').trim().toLowerCase();
     if(typeof AUDIO_MAP!=='undefined' && AUDIO_MAP[key]){
-      try{ var am=new Audio(AUDIO_MAP[key]); am.pause(); var fell=false;
-        am.onerror=function(){ if(h.isAborted()||fell) return; fell=true; try{speechSynthesis.cancel();}catch(e){} _audPlaySpeech(h,_audSpeech(text,'en-US')); };
+      try{ var am=new Audio(AUDIO_MAP[key]); am.pause(); var fell=false; var _rt=0;
+        am.onerror=function(){ if(h.isAborted()) return;
+          if(_rt<2){ _rt++; try{ am.load(); var _rp=am.play(); if(_rp&&_rp.catch)_rp.catch(function(){}); }catch(e){} return; }
+          if(fell) return; fell=true; try{speechSynthesis.cancel();}catch(e){} _audPlaySpeech(h,_audSpeech(text,'en-US')); };
         _audPlayEl(h,am); return; }catch(e){}
     }
     var a=await _audSpriteEl(text, AUDIO_SPRITE);
@@ -3109,7 +3111,7 @@ function _audIpaEx(){
 function phonemeAudio(symRaw){
   return new Promise(function(res){
     var k=ipaInner(symRaw||'');
-    if(typeof PH_SEG==='undefined'||!PH_SEG[k]){ res(null); return; }
+    if(!phonemeUri(k)){ res(null); return; }
     getPhBuf(k).then(function(uri){
       if(!uri){res(null);return;}
       try{ var a=new Audio(uri); a.pause(); res(a); }
@@ -3226,15 +3228,65 @@ function playLocal(text){
 }
 /* 音素本身真人/神经网络语音（单文件 phsprite，离线可听，零运行时外网） */
 const PH_SEG = {"iː": "audio/ipa/ipa_01.ogg", "ɪ": "audio/ipa/ipa_02.ogg", "e": "audio/ipa/ipa_03.ogg", "æ": "audio/ipa/ipa_04.ogg", "ɑː": "audio/ipa/ipa_05.ogg", "ɒ": "audio/ipa/ipa_06.ogg", "ɔː": "audio/ipa/ipa_07.ogg", "ʊ": "audio/ipa/ipa_08.ogg", "uː": "audio/ipa/ipa_09.ogg", "ʌ": "audio/ipa/ipa_10.ogg", "ɜː": "audio/ipa/ipa_11.ogg", "ə": "audio/ipa/ipa_12.ogg", "eɪ": "audio/ipa/ipa_13.mp3", "aɪ": "audio/ipa/ipa_14.mp3", "ɔɪ": "audio/ipa/ipa_15.mp3", "aʊ": "audio/ipa/ipa_16.mp3", "əʊ": "audio/ipa/ipa_17.mp3", "ɪə": "audio/ipa/ipa_18.mp3", "eə": "audio/ipa/ipa_19.mp3", "ʊə": "audio/ipa/ipa_20.mp3", "p": "audio/ipa/ipa_21.ogg", "b": "audio/ipa/ipa_22.ogg", "t": "audio/ipa/ipa_23.ogg", "d": "audio/ipa/ipa_24.ogg", "k": "audio/ipa/ipa_25.ogg", "g": "audio/ipa/ipa_26.ogg", "f": "audio/ipa/ipa_27.ogg", "v": "audio/ipa/ipa_28.ogg", "θ": "audio/ipa/ipa_29.ogg", "ð": "audio/ipa/ipa_30.ogg", "s": "audio/ipa/ipa_31.mp3", "z": "audio/ipa/ipa_32.ogg", "ʃ": "audio/ipa/ipa_33.mp3", "ʒ": "audio/ipa/ipa_34.mp3", "h": "audio/ipa/ipa_35.ogg", "tʃ": "audio/ipa/ipa_36.ogg", "dʒ": "audio/ipa/ipa_37.ogg", "m": "audio/ipa/ipa_38.ogg", "n": "audio/ipa/ipa_39.ogg", "ŋ": "audio/ipa/ipa_40.ogg", "l": "audio/ipa/ipa_41.ogg", "r": "audio/ipa/ipa_42.ogg", "w": "audio/ipa/ipa_43.ogg", "j": "audio/ipa/ipa_44.ogg", "tr": "audio/ipa/ipa_45.mp3", "dr": "audio/ipa/ipa_46.mp3", "ts": "audio/ipa/ipa_47.ogg", "dz": "audio/ipa/ipa_48.ogg"};
+/* ===== v43 移动端/iOS 音频兼容层 ===== */
+/* 35 个音素原为 Wikimedia .ogg：iOS Safari 不支持 Ogg Vorbis，点音标必然失败并退回机器音。
+   改为播放「承载该音素的例词」mp3（微软神经网络语音，全平台兼容，发音准确）。 */
+const PH_SEG_CARRIER={
+ "iː":"audio/ipa/ipa_01_c.mp3","ɪ":"audio/ipa/ipa_02_c.mp3","e":"audio/ipa/ipa_03_c.mp3",
+ "æ":"audio/ipa/ipa_04_c.mp3","ɑː":"audio/ipa/ipa_05_c.mp3","ɒ":"audio/ipa/ipa_06_c.mp3",
+ "ɔː":"audio/ipa/ipa_07_c.mp3","ʊ":"audio/ipa/ipa_08_c.mp3","uː":"audio/ipa/ipa_09_c.mp3",
+ "ʌ":"audio/ipa/ipa_10_c.mp3","ɜː":"audio/ipa/ipa_11_c.mp3","ə":"audio/ipa/ipa_12_c.mp3",
+ "p":"audio/ipa/ipa_21_c.mp3","b":"audio/ipa/ipa_22_c.mp3","t":"audio/ipa/ipa_23_c.mp3",
+ "d":"audio/ipa/ipa_24_c.mp3","k":"audio/ipa/ipa_25_c.mp3","g":"audio/ipa/ipa_26_c.mp3",
+ "f":"audio/ipa/ipa_27_c.mp3","v":"audio/ipa/ipa_28_c.mp3","θ":"audio/ipa/ipa_29_c.mp3",
+ "ð":"audio/ipa/ipa_30_c.mp3","z":"audio/ipa/ipa_32_c.mp3","h":"audio/ipa/ipa_35_c.mp3",
+ "tʃ":"audio/ipa/ipa_36_c.mp3","dʒ":"audio/ipa/ipa_37_c.mp3","m":"audio/ipa/ipa_38_c.mp3",
+ "n":"audio/ipa/ipa_39_c.mp3","ŋ":"audio/ipa/ipa_40_c.mp3","l":"audio/ipa/ipa_41_c.mp3",
+ "r":"audio/ipa/ipa_42_c.mp3","w":"audio/ipa/ipa_43_c.mp3","j":"audio/ipa/ipa_44_c.mp3",
+ "ts":"audio/ipa/ipa_47_c.mp3","dz":"audio/ipa/ipa_48_c.mp3"
+};
+var _oggOK=null;
+function oggSupported(){
+  if(_oggOK!==null) return _oggOK;
+  try{ var a=document.createElement('audio');
+    _oggOK = !!(a.canPlayType && a.canPlayType('audio/ogg; codecs="vorbis"')!=='');
+  }catch(e){ _oggOK=false; }
+  return _oggOK;
+}
+function phonemeUri(k){
+  var v=(typeof PH_SEG!=='undefined')&&PH_SEG[k];
+  if(!v) return null;
+  if(v.indexOf('.ogg')>-1 && !oggSupported()){
+    return (typeof PH_SEG_CARRIER!=='undefined' && PH_SEG_CARRIER[k]) || null;
+  }
+  return v;
+}
+/* iOS/移动端解锁：首次真实手势时静音播放一次取得播放权限，并预热内联音频 */
+var _audUnlocked=false;
+function unlockAudioOnce(){
+  if(_audUnlocked) return;
+  try{
+    var a=new Audio('audio/eng_0001.mp3');
+    a.muted=true; a.volume=0;
+    var p=a.play();
+    if(p&&p.then){ p.then(function(){ try{a.pause();a.currentTime=0;}catch(e){} _audUnlocked=true; }).catch(function(){}); }
+    else { _audUnlocked=true; }
+    try{ if(typeof loadSprite==='function') loadSprite(); }catch(e){}
+  }catch(e){}
+}
+['touchstart','pointerdown','click'].forEach(function(ev){
+  document.addEventListener(ev, unlockAudioOnce, {passive:true});
+});
+
 
 const _phCache={};
-const APP_VER="v42";
+const APP_VER="v43";
 (function(){ try{ var b=document.createElement('div'); b.id='appVerBadge'; b.textContent='音标音频 '+APP_VER; b.style.cssText='position:fixed;left:8px;bottom:8px;z-index:9999;background:#0a6b5e;color:#fff;font:600 11px/1.4 system-ui,-apple-system,sans-serif;padding:4px 9px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.25);pointer-events:none;letter-spacing:.3px;'; document.body.appendChild(b); }catch(e){} })();
 
 function getPhBuf(key){
   if(_phCache[key]) return Promise.resolve(_phCache[key]);
   try{
-    var v=PH_SEG[key];
+    var v=phonemeUri(key);
     if(!v) return Promise.resolve(null);
     var uri;
       if(v.indexOf('data:')===0){ uri=v; }
@@ -3245,7 +3297,7 @@ function getPhBuf(key){
 }
 async function playPhonemeHuman(symRaw){
   const key=ipaInner(symRaw);
-  if(typeof PH_SEG==='undefined'||!PH_SEG[key]) return false;
+  if(!phonemeUri(key)) return false;
   const uri=await getPhBuf(key);
   if(!uri) return false;
   try{ const a=new Audio(uri); await new Promise(res=>{let done=false;a.onended=()=>{if(done)return;done=true;res();};a.onerror=()=>{if(done)return;done=true;res();};const p=a.play();if(p&&p.catch)p.catch(()=>{if(done)return;done=true;res();});}); return true; }catch(e){return false;}
