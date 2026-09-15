@@ -730,6 +730,34 @@
     .tl-date::before{left:-16px;}
     .iq-save{margin-left:0;width:100%;}
   }
+
+/* ===== v42 板块精选指南卡片 ===== */
+.picks-card{margin:0 0 14px;background:linear-gradient(180deg,rgba(255,252,247,.96),rgba(255,248,242,.92));border:1px solid rgba(160,106,120,.22);border-radius:16px;box-shadow:0 4px 18px rgba(120,90,70,.07);overflow:hidden}
+.pk-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:12px 14px;cursor:pointer;transition:.15s;min-height:44px}
+.pk-head:hover{background:rgba(232,180,188,.10)}
+.pk-title{font-size:14.5px;font-weight:700;color:#8a5f6d;letter-spacing:.2px}
+.pk-sub{flex:1;min-width:120px;font-size:11.5px;color:#8b7d78;line-height:1.5}
+.pk-arrow{font-size:11.5px;color:#a06a78;font-weight:700;white-space:nowrap;background:rgba(232,180,188,.18);padding:3px 9px;border-radius:999px}
+.pk-body{padding:2px 14px 14px;border-top:1px solid rgba(160,106,120,.14)}
+.pk-sec-t{margin:12px 0 7px;font-size:12.5px;font-weight:700;color:#7a6a90;letter-spacing:.2px}
+.pk-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:9px}
+.pk-item{display:block;padding:10px 12px;border-radius:12px;background:rgba(255,255,255,.9);border:1px solid rgba(143,184,212,.28);text-decoration:none;transition:.15s;min-height:44px}
+.pk-item:hover{background:rgba(143,184,212,.12);transform:translateY(-2px);border-color:rgba(143,184,212,.55)}
+.pk-item:active{transform:scale(.99)}
+.pk-n{font-size:13px;font-weight:700;color:#3f6f8f;line-height:1.4}
+.pk-m{font-size:10.5px;color:#9a8f88;margin-top:2px}
+.pk-w{font-size:11.5px;color:#6b625c;line-height:1.55;margin-top:5px}
+.pk-tips{margin:0;padding-left:18px}
+.pk-tips li{font-size:12px;color:#6b625c;line-height:1.75;margin-bottom:4px}
+.pk-foot{margin-top:11px;padding-top:9px;border-top:1px dashed rgba(160,106,120,.2);font-size:10.5px;color:#a39a94;line-height:1.5}
+@media(max-width:768px){
+  .pk-list{grid-template-columns:1fr}
+  .pk-sub{flex-basis:100%;order:3}
+  .pk-arrow{order:2;margin-left:auto}
+  .pk-w{font-size:12px}
+  .pk-tips li{font-size:12.5px}
+}
+
 </style>
 </head>
 <body>
@@ -1580,8 +1608,191 @@ function histItemHtml(type,data){
 
 
 function renderPanel(id){
-  const p=document.getElementById("panel-"+id);
-  const sec=SECTIONS.find(s=>s.id===id);
+  var p=document.getElementById("panel-"+id);
+  var sec=SECTIONS.find(function(s){return s.id===id;});
+  if(!p) return;
+  _renderPanelCore(p,sec,id);
+  try{ if(typeof PICKS!=="undefined" && PICKS[id]){ p.insertAdjacentHTML("afterbegin", picksHtml(id)); wirePicks(p,id); } }catch(e){}
+}
+/* ===== v42 板块精选视频指南（真实来源：UP主/BV号/播客名，均经搜索核实） ===== */
+const B='https://search.bilibili.com/all?keyword=';
+const BV=(v)=>'https://www.bilibili.com/video/'+v;
+const SP=(uid)=>'https://space.bilibili.com/'+uid;
+
+const PICKS={
+  ai:{title:'AI 学习 · 精选与挑选指南',note:'按「先框架、后分集」的顺序看，别一上来啃几百集',
+    picks:[
+      {n:'李宏毅 · AI Agent 原理课',m:'台大名师 · 全套课件代码',w:'原理讲得最透的一版，从 Transformer 一路讲到 Agent，适合想把底层搞明白的人',u:B+encodeURIComponent('李宏毅 AI Agent 原理')},
+      {n:'吴恩达《Agentic AI》',m:'deeplearning.ai · 中英双语 · 附示例代码',w:'权威系统课，边看边跑代码，适合有 Python 基础想上手的人',u:B+encodeURIComponent('吴恩达 Agentic AI 智能体教程')},
+      {n:'AI大模型应用开发（748集）',m:'BV16aDpB4Er6 · 分集含 RAG/Agent/AutoGen',w:'体系最全的中文大合集，当工具书查比当课刷更合适——按阶段挑分集',u:BV('BV16aDpB4Er6')},
+      {n:'Agent Skills 原理到实战',m:'BV1jo6yBWEpd · 2026版',w:'从大模型认知→提示词工程→RAG→Agent 逐层递进，适合按顺序跟完',u:BV('BV1jo6yBWEpd')},
+      {n:'九天Hector · MCP 7分钟',m:'单集短视频',w:'7 分钟把 MCP 讲清楚，概念扫盲效率最高',u:B+encodeURIComponent('九天Hector MCP')},
+      {n:'马克的技术工作坊',m:'从0到1讲 Agent / skills',w:'新手友好度最高，概念讲得慢而清楚，适合零基础入门',u:SP('1815948385')}
+    ],
+    tips:[
+      '先搭「LLM大脑 + 工具调用 + 记忆 + 规划」的框架，再钻细节——框架没建立时看细节必定晕',
+      '按阶段挑分集看：认知篇 → 提示词 → RAG → Agent，不要顺着几百集一路刷',
+      '优先选带代码/课件的，看完立刻跑通一遍；只看不跑等于没学',
+      '警惕「7天从小白到大神」标题党，这类多为拼凑合集',
+      '同一主题找 2 个不同讲师交叉验证，能快速识别讲错或过时的部分',
+      '技术迭代极快，优先看近 1 年内更新的，两年前的框架课可能已过时'
+    ]},
+
+  clip:{title:'剪辑创作 · 精选与挑选指南',note:'先懂剪辑思维（节奏、叙事），再磕软件操作',
+    picks:[
+      {n:'剪映专业版全套教程',m:'BV1Uiuq61Ema · 分集含关键帧/蒙版/抠像/调色',w:'电脑版最完整的一套，分集清晰，照着做就能复现效果',u:BV('BV1Uiuq61Ema')},
+      {n:'2026最细自学剪映专业版',m:'BV1TP5464EsH · 全108集',w:'覆盖电脑版与手机版，讲得细，适合想系统啃完的人',u:BV('BV1TP5464EsH')},
+      {n:'剪映手机版全60集',m:'BV1mwhRzbEj4 · 带字幕',w:'手机端专用，地铁上也能学，碎片时间友好',u:BV('BV1mwhRzbEj4')},
+      {n:'影视飓风',m:'拍摄/灯光/剪辑/特效全流程',w:'质量天花板，有专门的新手入门系列，想认真学剪辑必看',u:B+encodeURIComponent('影视飓风 剪辑入门')},
+      {n:'陆一舟',m:'剪映操作 + 剪辑思维',w:'重点讲节奏与叙事结构，帮你避免素材堆砌，比纯教按钮更值钱',u:B+encodeURIComponent('陆一舟 剪辑思维')},
+      {n:'GenJi 是真想教会你',m:'达芬奇/PR 多软件速成',w:'讲得系统清晰，以后想从剪映升级到专业软件时看',u:B+encodeURIComponent('GenJi 是真想教会你')}
+    ],
+    tips:[
+      '工具只是手里的笔，真正让人看进去的是怎么讲故事——先补「镜头语言/节奏/转场思维」',
+      '警惕「收藏即学会」：每看完一个教程，动手做 3 个模仿作品再进入下一阶段',
+      '优先选 10万粉以上、更新稳定的 UP，内容质量经过市场验证',
+      '剪映国际版 CapCut 无需 VIP 即可免费用全部特效、关键帧、AI 功能（设置→App Language→简体中文）',
+      '画质选 1080p 以上，否则看不清软件界面里的按钮位置',
+      '入门期只跟一位 UP 的系统课，东看一个西看一个最容易半途而废'
+    ]},
+
+  fit:{title:'健身塑型 · 精选与挑选指南',note:'你的目标（练背/瘦腿/假胯宽）属体态矫正，优先选「矫正类」而非纯燃脂',
+    picks:[
+      {n:'韩小四 April',m:'NASM认证健身教练 & 运动矫正专家',w:'最对口你需求的 UP：假胯宽、膝超伸、小腿外翻、骨盆前倾都有专项，每期给前后对比数据',u:SP('369750017')},
+      {n:'周六野 Zoey',m:'国际认证健身教练 & 瑜伽导师 · 670万粉',w:'难度低、易坚持，经期运动、高低肩这类细分问题她最全，适合入门和状态不好时',u:SP('62540916')},
+      {n:'欧阳春晓',m:'ACE 认证私人教练',w:'斜方肌、少女背、肩颈线专项——改善"背厚/溜肩/富贵包"首选',u:B+encodeURIComponent('欧阳春晓 斜方肌 少女背')},
+      {n:'海洋饼干 Sophie',m:'有氧为主 · 硬核进阶',w:'斜方肌杀手、大腿前侧凸出矫正口碑最高，入门 1-2 个月后跟她提升',u:B+encodeURIComponent('海洋饼干 斜方肌 大腿凸出')},
+      {n:'Jo姐 growwithjo',m:'新手治愈系 · 5000步/10000步',w:'强度小、无跑跳、膝盖友好，最不容易放弃的一套，适合建立运动习惯',u:B+encodeURIComponent('Jo姐 5000步 燃脂')},
+      {n:'帕梅拉 Pamela Reif',m:'强度大 · 进阶专用',w:'⚠️ 新手别碰：多篇测评都强调"新手不要尝试"，有 2-4 周基础后再上',u:SP('604003146')},
+      {n:'草莓味鸡胸肉',m:'帕梅拉中文字幕搬运 + 官方周课表',w:'想要系统排期就跟她的周课表（1.0-17.0），比自己东拼西凑有效',u:SP('34044873')}
+    ],
+    tips:[
+      '⚠️ 新手最大的坑是上来就跟帕梅拉——强度极大易受伤且难坚持，先从韩小四/周六野/Jo姐起步',
+      '你的「练背+瘦腿+假胯宽」属体态问题，顺序应是：先矫正力线（膝超伸/骨盆）→ 再局部塑形 → 最后燃脂',
+      '小基数和大基数练法完全不同：大基数优先低冲击（踏步走、慢跑），避免膝踝损伤',
+      '选 1 位跟到底，不要同时追多个 UP；长时间坚持 > 短时间高强度',
+      '身体不适立刻退阶别硬撑，动作做标准比做多重要',
+      '想系统推进就用帕梅拉的官方周课表，按周跟练好过随机挑视频'
+    ]},
+
+  guzheng:{title:'古筝练习 · 精选与挑选指南',note:'讲师资质 + 手型细节，是自学古筝的两个生死线',
+    picks:[
+      {n:'袁莎',m:'零基础系统入门 · 权威',w:'央院教授级，基本功标准化教学，自学古筝最稳妥的起点',u:B+encodeURIComponent('袁莎 古筝 零基础 基本功')},
+      {n:'央央古筝',m:'央院本科在读 · 袁莎亲传弟子',w:'科班思路教学，讲解细致，适合想走正统路线的',u:B+encodeURIComponent('央央古筝')},
+      {n:'新爱琴',m:'32.8万粉 · 公益课 +《每日必弹》',w:'有系统的基本功合集和中国音乐学院考级曲示范，考级向首选',u:B+encodeURIComponent('新爱琴 古筝 公益课')},
+      {n:'刘雪',m:'基本功核心课程（第二季）',w:'专攻基本功打磨，进阶阶段补短板看她',u:B+encodeURIComponent('刘雪 古筝 基本功')},
+      {n:'钰博谈古筝',m:'豫西筝派世家第三代传人',w:'深挖传统流派技法，想了解地方流派韵味必看',u:B+encodeURIComponent('钰博谈古筝')},
+      {n:'墨韵',m:'实力派演奏 UP',w:'示范曲风丰富，适合培养乐感和舞台表现力（进阶欣赏）',u:B+encodeURIComponent('墨韵 古筝')}
+    ],
+    tips:[
+      '讲师资质优先：专业院校背景，或具备中国民族管弦乐学会古筝考级考官资格',
+      '⚠️ 警惕「7天速成」「神曲改编」标题党，优先有机构认证的 UP',
+      '开 0.5 倍速看手型、触弦角度和琴弦震动细节，1080p 以下看不清等于白看',
+      '阶段节奏：1-3 月死磕基础指法（勾托抹托 + 义甲佩戴 + 识谱），3-12 月才上技法（摇指/琶音/滑音/按音）',
+      '每天 30 分钟基础指法 ≫ 周末猛练 3 小时弹整曲',
+      '建「手型 / 节奏 / 曲目」三个收藏夹分类存，别一股脑塞进一个收藏夹'
+    ]},
+
+  lang:{title:'英语&语言 · 精选与挑选指南',note:'听说读写分开找对应强项 UP，不要指望一个 UP 包打天下',
+    picks:[
+      {n:'英语兔',m:'语法体系化 · 公认讲得最清楚',w:'语法从零搭体系，讲完能自己分析长难句，语法混乱首选',u:B+encodeURIComponent('英语兔 语法')},
+      {n:'BBC Learning English',m:'官方 · 6 Minute English 附全文稿',w:'听力首选：6 分钟一期、语速适中、有完整文稿可对照',u:B+encodeURIComponent('BBC 6 Minute English')},
+      {n:'Rachel\'s English',m:'美式发音 · 真人口型演示',w:'连读、弱读、失去爆破的真人口型细节，发音纠音最实用',u:B+encodeURIComponent("Rachel's English 美式发音")},
+      {n:'昂克英文君',m:'外刊精读',w:'对应你的「每日阅读」板块，带拆解长难句和背景知识',u:B+encodeURIComponent('昂克英文君 外刊精读')},
+      {n:'新概念英语精讲',m:'经典教材 · 零基础打底',w:'语法和词汇的地基，第一册打牢后再看别的会很轻松',u:B+encodeURIComponent('新概念英语第一册 精讲')}
+    ],
+    tips:[
+      '发音要跟「真人口型演示」类视频（Rachel\'s English），光看音标符号学不会',
+      '听力材料必须有文稿，没有文稿的泛听基本是无效输入',
+      '口语跟读先 0.7 倍速，重点模仿连读和失去爆破，再回原速',
+      '语法只选一个体系跟完（新概念 或 英语兔），多头并列必乱',
+      '雅思写作看前考官 Simon，比国内模板更贴近真实评分标准',
+      '本板块音标/拼读已内置真人音频，点击即听，不需要再去站内找'
+    ]},
+
+  podcast:{title:'播客记录 · 精选与挑选指南',note:'按场景选，一次只追 3-5 档，多了会积压成负担',
+    picks:[
+      {n:'《忽左忽右》',m:'人文历史 · 深度',w:'选题扎实、嘉宾专业，适合专注时段精听',u:B+encodeURIComponent('忽左忽右 播客')},
+      {n:'《随机波动》',m:'文化 / 访谈 · 深度',w:'文化与社会议题的深度对谈，思辨密度高',u:B+encodeURIComponent('随机波动 播客')},
+      {n:'《商业就是这样》',m:'商业现象 · 通俗',w:'把商业现象讲成故事，通勤听毫无压力',u:B+encodeURIComponent('商业就是这样 播客')},
+      {n:'《知行小酒馆》',m:'投资理财认知',w:'对应你的理财板块，讲投资理念和心态为主',u:B+encodeURIComponent('知行小酒馆 播客')},
+      {n:'《硅谷101》',m:'科技 / AI 前沿',w:'对应你的 AI 学习板块，中文科技播客里信息密度最高的一档',u:B+encodeURIComponent('硅谷101 播客')},
+      {n:'BBC 6 Minute English',m:'英语学习 · 附文稿',w:'6 分钟一期，边听边对照文稿，是最省时的英语输入',u:B+encodeURIComponent('BBC 6 Minute English 播客')}
+    ],
+    tips:[
+      '按场景匹配：通勤/家务听轻量（商业、故事），专注时段听深度（人文、访谈）',
+      '英语播客必须有文稿，听不懂又没文稿 = 白听',
+      '投资理财类注意时效性，优先近 1 年内的，过期的市场判断会误导你',
+      '一次只追 3-5 档，订阅过多会变成"待听焦虑"',
+      '先用 1.2-1.5 倍速筛选，值得的再原速精听并做笔记'
+    ]},
+
+  finance:{title:'理财专区 · 精选与挑选指南',note:'⚠️ 理财内容风险最高：凡是荐股、带单、保证收益的一律不看',
+    picks:[
+      {n:'第一财经 / 新华社',m:'官方权威 · 宏观政策',w:'政策与宏观信息以官方源为准，避免二手解读失真',u:B+encodeURIComponent('第一财经 宏观 解读')},
+      {n:'半佛仙人',m:'商业现象 · 风控视角',w:'讲商业逻辑和风险提示为主，科普向，不荐股',u:B+encodeURIComponent('半佛仙人')},
+      {n:'《知行小酒馆》',m:'投资理念播客',w:'讲资产配置和投资心态，适合建立长期框架',u:B+encodeURIComponent('知行小酒馆 投资')},
+      {n:'巫师财经 / 老蒋巨靠谱',m:'行业与公司拆解',w:'深度资料向，看方法论和数据源，不要看结论照抄',u:B+encodeURIComponent('巫师财经')}
+    ],
+    tips:[
+      '⚠️ 凡是让你加群、跟单、承诺收益的，一律划走——这是唯一不需要思考的筛选规则',
+      '优先看讲「原理和风险」的内容，而不是讲「哪只会涨」的内容',
+      '任何单一信源都要交叉验证，尤其是具体公司的判断',
+      '收费课程先用免费内容验货，别冲动付费',
+      '本板块的每日数据仅为信息聚合，不构成投资建议'
+    ]},
+
+  aesthetic:{title:'审美提升 · 精选与挑选指南',note:'审美靠大量看好东西，而不是看「3分钟教你配色」',
+    picks:[
+      {n:'影视飓风',m:'画面 / 构图 / 色彩 · 专业系统',w:'把摄影和色彩讲成可复用的方法，审美与技法兼顾',u:B+encodeURIComponent('影视飓风 构图 色彩')},
+      {n:'顾爷',m:'艺术史 · 通俗讲解',w:'名画背后的故事和时代背景，让看画不再"看不懂"',u:B+encodeURIComponent('顾爷 艺术')},
+      {n:'意外艺术',m:'艺术科普 · 入门友好',w:'零基础也能听懂的艺术普及，适合建立兴趣',u:B+encodeURIComponent('意外艺术')},
+      {n:'一条 / 看理想',m:'设计 · 建筑 · 生活方式',w:'高质量影像审美素材，本板块六大类收纳可直接存图取色',u:B+encodeURIComponent('看理想 设计 建筑')}
+    ],
+    tips:[
+      '审美训练靠"大量看好东西"，比重：看作品拆解 8 : 看技巧教程 2',
+      '看一幅画时按固定四问：构图线怎么走、光源在哪、色相怎么搭、留白留多少',
+      '看到喜欢的立刻存进工作台六大类收纳（配色支持一键复制色值），积累比收藏夹管用',
+      '⚠️ 警惕「AI 一键高级感」，工具替代不了眼睛的训练',
+      '本板块每日推送的画作已附作者/派别/构图/色彩解析，先看懂再找同类'
+    ]}
+};
+
+/* 渲染：在板块面板顶部插入精选指南（折叠卡片，默认收起，不打扰） */
+function picksHtml(id){
+  const d=PICKS[id]; if(!d) return '';
+  const open=gStore('wb_picks_open_'+id,false);
+  const items=d.picks.map(p=>'<a class="pk-item" href="'+p.u+'" target="_blank" rel="noopener">'+
+    '<div class="pk-n">'+esc(p.n)+'</div>'+
+    '<div class="pk-m">'+esc(p.m)+'</div>'+
+    '<div class="pk-w">'+esc(p.w)+'</div></a>').join('');
+  const tips=d.tips.map(t=>'<li>'+esc(t)+'</li>').join('');
+  return '<div class="picks-card" data-pk="'+id+'">'+
+    '<div class="pk-head" data-pk-toggle="'+id+'">'+
+      '<span class="pk-title">⭐ '+esc(d.title)+'</span>'+
+      '<span class="pk-sub">'+esc(d.note)+'</span>'+
+      '<span class="pk-arrow">'+(open?'收起 ▲':'展开 ▼')+'</span>'+
+    '</div>'+
+    (open?('<div class="pk-body">'+
+      '<div class="pk-sec-t">精选清单（点击直达）</div>'+
+      '<div class="pk-list">'+items+'</div>'+
+      '<div class="pk-sec-t">挑选建议 · 省下你自己试错的时间</div>'+
+      '<ul class="pk-tips">'+tips+'</ul>'+
+      '<div class="pk-foot">精选为人工筛选，若链接失效可用板块内的「搜更多」按关键词重新查找</div>'+
+    '</div>'):'')+
+  '</div>';
+}
+function wirePicks(p,id){
+  const h=p.querySelector('[data-pk-toggle]');
+  if(!h) return;
+  h.onclick=function(){
+    const cur=gStore('wb_picks_open_'+id,false);
+    sStore('wb_picks_open_'+id,!cur);
+    renderPanel(id);
+  };
+}
+
+function _renderPanelCore(p,sec,id){
   if(id==="fresh"){renderFresh(p,sec);return;}
   if(id==="lang"){renderLang(p,sec);return;}
   if(id==="ai"){renderAI(p,sec);return;}
@@ -3017,7 +3228,7 @@ function playLocal(text){
 const PH_SEG = {"iː": "audio/ipa/ipa_01.ogg", "ɪ": "audio/ipa/ipa_02.ogg", "e": "audio/ipa/ipa_03.ogg", "æ": "audio/ipa/ipa_04.ogg", "ɑː": "audio/ipa/ipa_05.ogg", "ɒ": "audio/ipa/ipa_06.ogg", "ɔː": "audio/ipa/ipa_07.ogg", "ʊ": "audio/ipa/ipa_08.ogg", "uː": "audio/ipa/ipa_09.ogg", "ʌ": "audio/ipa/ipa_10.ogg", "ɜː": "audio/ipa/ipa_11.ogg", "ə": "audio/ipa/ipa_12.ogg", "eɪ": "audio/ipa/ipa_13.mp3", "aɪ": "audio/ipa/ipa_14.mp3", "ɔɪ": "audio/ipa/ipa_15.mp3", "aʊ": "audio/ipa/ipa_16.mp3", "əʊ": "audio/ipa/ipa_17.mp3", "ɪə": "audio/ipa/ipa_18.mp3", "eə": "audio/ipa/ipa_19.mp3", "ʊə": "audio/ipa/ipa_20.mp3", "p": "audio/ipa/ipa_21.ogg", "b": "audio/ipa/ipa_22.ogg", "t": "audio/ipa/ipa_23.ogg", "d": "audio/ipa/ipa_24.ogg", "k": "audio/ipa/ipa_25.ogg", "g": "audio/ipa/ipa_26.ogg", "f": "audio/ipa/ipa_27.ogg", "v": "audio/ipa/ipa_28.ogg", "θ": "audio/ipa/ipa_29.ogg", "ð": "audio/ipa/ipa_30.ogg", "s": "audio/ipa/ipa_31.mp3", "z": "audio/ipa/ipa_32.ogg", "ʃ": "audio/ipa/ipa_33.mp3", "ʒ": "audio/ipa/ipa_34.mp3", "h": "audio/ipa/ipa_35.ogg", "tʃ": "audio/ipa/ipa_36.ogg", "dʒ": "audio/ipa/ipa_37.ogg", "m": "audio/ipa/ipa_38.ogg", "n": "audio/ipa/ipa_39.ogg", "ŋ": "audio/ipa/ipa_40.ogg", "l": "audio/ipa/ipa_41.ogg", "r": "audio/ipa/ipa_42.ogg", "w": "audio/ipa/ipa_43.ogg", "j": "audio/ipa/ipa_44.ogg", "tr": "audio/ipa/ipa_45.mp3", "dr": "audio/ipa/ipa_46.mp3", "ts": "audio/ipa/ipa_47.ogg", "dz": "audio/ipa/ipa_48.ogg"};
 
 const _phCache={};
-const APP_VER="v41";
+const APP_VER="v42";
 (function(){ try{ var b=document.createElement('div'); b.id='appVerBadge'; b.textContent='音标音频 '+APP_VER; b.style.cssText='position:fixed;left:8px;bottom:8px;z-index:9999;background:#0a6b5e;color:#fff;font:600 11px/1.4 system-ui,-apple-system,sans-serif;padding:4px 9px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.25);pointer-events:none;letter-spacing:.3px;'; document.body.appendChild(b); }catch(e){} })();
 
 function getPhBuf(key){
